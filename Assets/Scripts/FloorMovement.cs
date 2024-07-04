@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class FloorMovement : MonoBehaviour
 {
-
+    [SerializeField] float floorSpeed = 2;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -14,6 +15,7 @@ public class FloorMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position -= new Vector3(2,0,0) * Time.deltaTime;
+        transform.position += new Vector3(floorSpeed,0,0) * Time.deltaTime;
     }
+
 }
