@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Susita.sln"
+    "dotnet.defaultSolution": "Susita-GJ.sln"
 }
