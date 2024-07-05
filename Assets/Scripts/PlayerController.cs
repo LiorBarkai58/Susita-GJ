@@ -6,12 +6,13 @@ using UnityEngine.Animations;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.Composites;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
     Controls controls;
     InputAction move;
     [SerializeField] float currentPos = 0;
     [SerializeField] float moveSpeed = 12f;
+    [SerializeField] private float currency = 0;
 
     void Awake(){
         controls = new Controls();
@@ -38,5 +39,10 @@ public class PlayerMovement : MonoBehaviour
             currentPos = Math.Clamp(currentPos + move.ReadValue<float>(),-1, 1);
         }
         transform.position = Vector3.MoveTowards(transform.position, new Vector3(transform.position.x, transform.position.y, currentPos*4), Time.deltaTime*moveSpeed);//Should potentially be time.deltatime, currently 1 for testing
+    }
+
+    public void giveCurrency(float currency)
+    {
+        this.currency += currency;
     }
 }

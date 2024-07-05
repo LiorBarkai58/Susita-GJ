@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class FloorMovement : MonoBehaviour
 {
-    private float floorSpeed = 7;
+    private float floorSpeed = 12;
     
     // Start is called before the first frame update
     void Start()
