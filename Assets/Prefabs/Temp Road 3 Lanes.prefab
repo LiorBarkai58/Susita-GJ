@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6901244126223460481}
   - component: {fileID: 95153454794348168}
   - component: {fileID: 5666777268037357139}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -117,7 +117,7 @@ GameObject:
   - component: {fileID: 6885772212727272693}
   - component: {fileID: 3615411504286336461}
   - component: {fileID: 4258750220614864809}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -222,7 +222,7 @@ GameObject:
   - component: {fileID: 5323403924919636360}
   - component: {fileID: 1383937482497655889}
   - component: {fileID: 2165972347533417223}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -327,7 +327,7 @@ GameObject:
   - component: {fileID: 8258358164307958989}
   - component: {fileID: 5208164837235015189}
   - component: {fileID: 7025878670734926884}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -432,7 +432,7 @@ GameObject:
   - component: {fileID: 3863999535434773645}
   - component: {fileID: 6082975022058991288}
   - component: {fileID: 9172108619308648969}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -537,7 +537,7 @@ GameObject:
   - component: {fileID: 3866473015615464743}
   - component: {fileID: 7444538316183650838}
   - component: {fileID: 3058661629508934015}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -642,7 +642,7 @@ GameObject:
   - component: {fileID: 9045207570847964799}
   - component: {fileID: 2835842160096450442}
   - component: {fileID: 3071516289114449415}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -747,7 +747,7 @@ GameObject:
   - component: {fileID: 2458063188965981933}
   - component: {fileID: 125013116180814118}
   - component: {fileID: 773436924027829220}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -852,7 +852,7 @@ GameObject:
   - component: {fileID: 137398644413405896}
   - component: {fileID: 322413691881689015}
   - component: {fileID: 2839205759639427942}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -957,7 +957,7 @@ GameObject:
   - component: {fileID: 5015846518362920604}
   - component: {fileID: 7286385378394340205}
   - component: {fileID: 1451683228415364122}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1062,7 +1062,7 @@ GameObject:
   - component: {fileID: 6956296815418120841}
   - component: {fileID: 4440475713981666251}
   - component: {fileID: 3484776882974639948}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1167,7 +1167,7 @@ GameObject:
   - component: {fileID: 7446724153840328919}
   - component: {fileID: 2270844591716478030}
   - component: {fileID: 5349736047625583327}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1272,7 +1272,7 @@ GameObject:
   - component: {fileID: 3272275315970549864}
   - component: {fileID: 6718638268515089993}
   - component: {fileID: 8000886122858760552}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1377,7 +1377,7 @@ GameObject:
   - component: {fileID: 2955973745814521346}
   - component: {fileID: 3155676614726370287}
   - component: {fileID: 6491670928708224710}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1482,7 +1482,7 @@ GameObject:
   - component: {fileID: 8249557264636257376}
   - component: {fileID: 5005028579170639721}
   - component: {fileID: 634053559421069575}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1587,7 +1587,7 @@ GameObject:
   - component: {fileID: 6572465483482821256}
   - component: {fileID: 5695751542386799281}
   - component: {fileID: 6859247163883179944}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1692,7 +1692,7 @@ GameObject:
   - component: {fileID: 3189426567139612582}
   - component: {fileID: 2112800162042399160}
   - component: {fileID: 1688837539927634023}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1797,7 +1797,7 @@ GameObject:
   - component: {fileID: 4927461356410247892}
   - component: {fileID: 3354885756510217186}
   - component: {fileID: 6357882449698002702}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1899,7 +1899,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 240134381989558134}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Left Lane Marks (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1966,7 +1966,7 @@ GameObject:
   - component: {fileID: 7191549969279386468}
   - component: {fileID: 3284375313498784793}
   - component: {fileID: 3589067640893083390}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2072,7 +2072,7 @@ GameObject:
   - component: {fileID: 9130088880671215125}
   - component: {fileID: 5185184299912525660}
   - component: {fileID: 6476984866297017380}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Temp Road 3 Lanes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2100,7 +2100,6 @@ Transform:
   - {fileID: 240134381989558134}
   - {fileID: 1551179530209985479}
   - {fileID: 1902844840045202144}
-  - {fileID: 6336971978182691206}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &4479306153465098388
@@ -2198,7 +2197,7 @@ GameObject:
   - component: {fileID: 6665918984344354920}
   - component: {fileID: 1822492373220572042}
   - component: {fileID: 264056933041110524}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sidewalk (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2303,7 +2302,7 @@ GameObject:
   - component: {fileID: 2653463929489630384}
   - component: {fileID: 8325430266682020521}
   - component: {fileID: 2036966098559257027}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2408,7 +2407,7 @@ GameObject:
   - component: {fileID: 1805715801161296840}
   - component: {fileID: 3691222883801082448}
   - component: {fileID: 516135825687596234}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2513,7 +2512,7 @@ GameObject:
   - component: {fileID: 5668925627116177598}
   - component: {fileID: 6925505018704148695}
   - component: {fileID: 866696386013871427}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2618,7 +2617,7 @@ GameObject:
   - component: {fileID: 7029029624926081267}
   - component: {fileID: 5822193845681103722}
   - component: {fileID: 1282555888600644107}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2723,7 +2722,7 @@ GameObject:
   - component: {fileID: 7506251703389098972}
   - component: {fileID: 2526399098338192575}
   - component: {fileID: 418456649017485324}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2828,7 +2827,7 @@ GameObject:
   - component: {fileID: 226224530916614375}
   - component: {fileID: 2637960653814846083}
   - component: {fileID: 7537462188297367680}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2933,7 +2932,7 @@ GameObject:
   - component: {fileID: 878279651601328512}
   - component: {fileID: 864457192662334562}
   - component: {fileID: 1918724282635546092}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3038,7 +3037,7 @@ GameObject:
   - component: {fileID: 6854672134242318706}
   - component: {fileID: 6186600700164318022}
   - component: {fileID: 6232764675347454567}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3142,7 +3141,7 @@ GameObject:
   - component: {fileID: 124778348789535659}
   - component: {fileID: 6656961741609543381}
   - component: {fileID: 5731327363753565774}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ExitTrigger
   m_TagString: Floor
   m_Icon: {fileID: 0}
@@ -3224,7 +3223,7 @@ GameObject:
   - component: {fileID: 9116115789555170345}
   - component: {fileID: 8975716035809445576}
   - component: {fileID: 3945404854743757962}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3329,7 +3328,7 @@ GameObject:
   - component: {fileID: 7929225398403965364}
   - component: {fileID: 8287905101400381232}
   - component: {fileID: 8181803856415119046}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3434,7 +3433,7 @@ GameObject:
   - component: {fileID: 4500098997646909732}
   - component: {fileID: 8855821977737579418}
   - component: {fileID: 861802215418273815}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3539,7 +3538,7 @@ GameObject:
   - component: {fileID: 9107202118851301260}
   - component: {fileID: 1917636612348518438}
   - component: {fileID: 6563649077320621454}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3644,7 +3643,7 @@ GameObject:
   - component: {fileID: 14275981825828538}
   - component: {fileID: 391429924525407485}
   - component: {fileID: 5824067384113113979}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3749,7 +3748,7 @@ GameObject:
   - component: {fileID: 7966575171464080130}
   - component: {fileID: 1273037602722430297}
   - component: {fileID: 8558146590197307674}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3854,7 +3853,7 @@ GameObject:
   - component: {fileID: 5873429870556587514}
   - component: {fileID: 5742016723298844563}
   - component: {fileID: 5456484015619809717}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3959,7 +3958,7 @@ GameObject:
   - component: {fileID: 4932500417909434063}
   - component: {fileID: 7229946139904318112}
   - component: {fileID: 867592343337816755}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4064,7 +4063,7 @@ GameObject:
   - component: {fileID: 4338428473426802386}
   - component: {fileID: 5878162967949994719}
   - component: {fileID: 4696904096368726642}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4169,7 +4168,7 @@ GameObject:
   - component: {fileID: 5869904636341945282}
   - component: {fileID: 1788747895647018481}
   - component: {fileID: 137933201387426024}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4274,7 +4273,7 @@ GameObject:
   - component: {fileID: 7129607945965027714}
   - component: {fileID: 3542103230890059937}
   - component: {fileID: 5425205964412779694}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4379,7 +4378,7 @@ GameObject:
   - component: {fileID: 817584060888685264}
   - component: {fileID: 8218958803810077387}
   - component: {fileID: 4224203128367801284}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4484,7 +4483,7 @@ GameObject:
   - component: {fileID: 4100653064449276337}
   - component: {fileID: 7765681806925989212}
   - component: {fileID: 9190578430248419346}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4589,7 +4588,7 @@ GameObject:
   - component: {fileID: 4649398566961916411}
   - component: {fileID: 5844405391348203318}
   - component: {fileID: 7286747389557629197}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4694,7 +4693,7 @@ GameObject:
   - component: {fileID: 5089542105094448455}
   - component: {fileID: 8746648978687980711}
   - component: {fileID: 5632937207092401236}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4799,7 +4798,7 @@ GameObject:
   - component: {fileID: 4144158455152680786}
   - component: {fileID: 1040822908314605841}
   - component: {fileID: 945084115803776512}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4904,7 +4903,7 @@ GameObject:
   - component: {fileID: 1828092560636141601}
   - component: {fileID: 3700415781830703831}
   - component: {fileID: 2987337118687828783}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5009,7 +5008,7 @@ GameObject:
   - component: {fileID: 2084285715273312318}
   - component: {fileID: 1652460318622771568}
   - component: {fileID: 7066216949502878212}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5114,7 +5113,7 @@ GameObject:
   - component: {fileID: 5136755643101665832}
   - component: {fileID: 4992215426781498785}
   - component: {fileID: 2246270259183488177}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5219,7 +5218,7 @@ GameObject:
   - component: {fileID: 3381922350087399395}
   - component: {fileID: 2110608721106389349}
   - component: {fileID: 6906565336008371827}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5324,7 +5323,7 @@ GameObject:
   - component: {fileID: 3098414759753034257}
   - component: {fileID: 8593428769253915790}
   - component: {fileID: 6779355290329221830}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5426,7 +5425,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1902844840045202144}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Right Lane Marks (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5493,7 +5492,7 @@ GameObject:
   - component: {fileID: 1453811397146596176}
   - component: {fileID: 2203634405968686342}
   - component: {fileID: 7856157874318327765}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5598,7 +5597,7 @@ GameObject:
   - component: {fileID: 4450512683872832080}
   - component: {fileID: 2354686207379737993}
   - component: {fileID: 7073376506336229035}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5703,7 +5702,7 @@ GameObject:
   - component: {fileID: 8495893711605739192}
   - component: {fileID: 1572028621181052279}
   - component: {fileID: 8666531052986338381}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5808,7 +5807,7 @@ GameObject:
   - component: {fileID: 82942413663495652}
   - component: {fileID: 1850723937151412577}
   - component: {fileID: 4032781577768502437}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5913,7 +5912,7 @@ GameObject:
   - component: {fileID: 753295775500528677}
   - component: {fileID: 6806075317743272658}
   - component: {fileID: 6273448157854498524}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6018,7 +6017,7 @@ GameObject:
   - component: {fileID: 7789074477355354497}
   - component: {fileID: 249561414014299414}
   - component: {fileID: 652520057834338536}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6123,7 +6122,7 @@ GameObject:
   - component: {fileID: 7432827194868029327}
   - component: {fileID: 2306379212482637028}
   - component: {fileID: 6849078452020850769}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6228,7 +6227,7 @@ GameObject:
   - component: {fileID: 6077978209891992418}
   - component: {fileID: 9089781002230464798}
   - component: {fileID: 8271655549312940429}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6333,7 +6332,7 @@ GameObject:
   - component: {fileID: 239537683948599407}
   - component: {fileID: 6095288897548696043}
   - component: {fileID: 6818443345740046756}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6438,7 +6437,7 @@ GameObject:
   - component: {fileID: 1952705505610971013}
   - component: {fileID: 9201991561340959120}
   - component: {fileID: 5741392691458525268}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6543,7 +6542,7 @@ GameObject:
   - component: {fileID: 3046660450829889322}
   - component: {fileID: 8297598615854134562}
   - component: {fileID: 1683377944263014828}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6648,7 +6647,7 @@ GameObject:
   - component: {fileID: 3558057663176990060}
   - component: {fileID: 4366620198445513609}
   - component: {fileID: 5918004550304014557}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6753,7 +6752,7 @@ GameObject:
   - component: {fileID: 2155478252496916879}
   - component: {fileID: 7206767788229325732}
   - component: {fileID: 2303819358917464345}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6858,7 +6857,7 @@ GameObject:
   - component: {fileID: 4220630195066541050}
   - component: {fileID: 2661754533426983283}
   - component: {fileID: 7748651970772616737}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6963,7 +6962,7 @@ GameObject:
   - component: {fileID: 6668404283436601751}
   - component: {fileID: 331866631231395157}
   - component: {fileID: 5776324356226150878}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7068,7 +7067,7 @@ GameObject:
   - component: {fileID: 7837900151252648398}
   - component: {fileID: 8472539342504109126}
   - component: {fileID: 4429417330344685192}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7173,7 +7172,7 @@ GameObject:
   - component: {fileID: 2059956279737500294}
   - component: {fileID: 3488940008003274803}
   - component: {fileID: 1507594179261922818}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7278,7 +7277,7 @@ GameObject:
   - component: {fileID: 8261507439161095873}
   - component: {fileID: 2709999935189261101}
   - component: {fileID: 8251201376413307072}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7383,7 +7382,7 @@ GameObject:
   - component: {fileID: 5070407092648444125}
   - component: {fileID: 9026790048258694129}
   - component: {fileID: 4262871693535696104}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7488,7 +7487,7 @@ GameObject:
   - component: {fileID: 6856359091359652230}
   - component: {fileID: 3781884701504004212}
   - component: {fileID: 3179456034202009926}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7593,7 +7592,7 @@ GameObject:
   - component: {fileID: 471580196679137265}
   - component: {fileID: 8825101846614536714}
   - component: {fileID: 2256601494715774910}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7698,7 +7697,7 @@ GameObject:
   - component: {fileID: 849898793322999943}
   - component: {fileID: 740915009441512478}
   - component: {fileID: 6524765708779570377}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sidewalk (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7803,7 +7802,7 @@ GameObject:
   - component: {fileID: 6087987204775910107}
   - component: {fileID: 4790730920495358932}
   - component: {fileID: 8778780820198211335}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7908,7 +7907,7 @@ GameObject:
   - component: {fileID: 6992186563788865671}
   - component: {fileID: 279570666059526201}
   - component: {fileID: 602414400303070208}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8013,7 +8012,7 @@ GameObject:
   - component: {fileID: 3334076545920066612}
   - component: {fileID: 8265048962804165875}
   - component: {fileID: 5855788131667544351}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sidewalk (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8118,7 +8117,7 @@ GameObject:
   - component: {fileID: 3307224316576528668}
   - component: {fileID: 751653326424044112}
   - component: {fileID: 5345095147195423991}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8220,7 +8219,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1551179530209985479}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Middle Lane Marks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8287,7 +8286,7 @@ GameObject:
   - component: {fileID: 8961772160944132142}
   - component: {fileID: 4677420033414935629}
   - component: {fileID: 885648245101812709}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8392,7 +8391,7 @@ GameObject:
   - component: {fileID: 6837709363360994869}
   - component: {fileID: 6815574600539726936}
   - component: {fileID: 6927112848336871776}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8497,7 +8496,7 @@ GameObject:
   - component: {fileID: 6719762957225024362}
   - component: {fileID: 8249861118735426492}
   - component: {fileID: 196288076813513537}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8602,7 +8601,7 @@ GameObject:
   - component: {fileID: 6921228912941014631}
   - component: {fileID: 1523508742379574802}
   - component: {fileID: 1193635555382227301}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8707,7 +8706,7 @@ GameObject:
   - component: {fileID: 8591005777303396476}
   - component: {fileID: 7777017884857030918}
   - component: {fileID: 7698878690072135878}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8812,7 +8811,7 @@ GameObject:
   - component: {fileID: 4139039267406517282}
   - component: {fileID: 40724598214686010}
   - component: {fileID: 6190629412239151037}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8917,7 +8916,7 @@ GameObject:
   - component: {fileID: 7938091367354205350}
   - component: {fileID: 875102353971181843}
   - component: {fileID: 8513754226495348490}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9022,7 +9021,7 @@ GameObject:
   - component: {fileID: 5983181399732619307}
   - component: {fileID: 719751797110771669}
   - component: {fileID: 2746484376051918021}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9127,7 +9126,7 @@ GameObject:
   - component: {fileID: 6475575336030663774}
   - component: {fileID: 3213534876842889347}
   - component: {fileID: 8110362196326977721}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9232,7 +9231,7 @@ GameObject:
   - component: {fileID: 7551080767867057181}
   - component: {fileID: 2288438467010608469}
   - component: {fileID: 210161191740040993}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9337,7 +9336,7 @@ GameObject:
   - component: {fileID: 3794729009044611112}
   - component: {fileID: 4265541512130226829}
   - component: {fileID: 3876060217704928906}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9442,7 +9441,7 @@ GameObject:
   - component: {fileID: 7122672003957196289}
   - component: {fileID: 2820277849398959702}
   - component: {fileID: 5849282867946752749}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9547,7 +9546,7 @@ GameObject:
   - component: {fileID: 1213536364502886280}
   - component: {fileID: 7449482182934974186}
   - component: {fileID: 2362902406958505550}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sidewalk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9652,7 +9651,7 @@ GameObject:
   - component: {fileID: 669989857793596386}
   - component: {fileID: 6841710570818199973}
   - component: {fileID: 1027366798331872073}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9757,7 +9756,7 @@ GameObject:
   - component: {fileID: 1659483992167607848}
   - component: {fileID: 7384648825482525419}
   - component: {fileID: 1952028595652111182}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9862,7 +9861,7 @@ GameObject:
   - component: {fileID: 6155322565716893337}
   - component: {fileID: 4325896222995957883}
   - component: {fileID: 5761080756044207005}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9967,7 +9966,7 @@ GameObject:
   - component: {fileID: 6704832765760856742}
   - component: {fileID: 1631583636085376109}
   - component: {fileID: 1533787464108727759}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10072,7 +10071,7 @@ GameObject:
   - component: {fileID: 6465946661202353230}
   - component: {fileID: 3639721807451774433}
   - component: {fileID: 2457095607784740814}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10177,7 +10176,7 @@ GameObject:
   - component: {fileID: 1058133778222764523}
   - component: {fileID: 2103367895036630862}
   - component: {fileID: 2359434384871995623}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10282,7 +10281,7 @@ GameObject:
   - component: {fileID: 9163622922566977080}
   - component: {fileID: 1678147140588348302}
   - component: {fileID: 4738215346279940422}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10387,7 +10386,7 @@ GameObject:
   - component: {fileID: 7478126499366190349}
   - component: {fileID: 7150689680751034044}
   - component: {fileID: 3065068985673633801}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10492,7 +10491,7 @@ GameObject:
   - component: {fileID: 7607720300407007614}
   - component: {fileID: 1115064934460231673}
   - component: {fileID: 3371085289090961099}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10597,7 +10596,7 @@ GameObject:
   - component: {fileID: 2196797484254204443}
   - component: {fileID: 1027743238525600107}
   - component: {fileID: 5051878403989984054}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10702,7 +10701,7 @@ GameObject:
   - component: {fileID: 4982370962550032340}
   - component: {fileID: 8264927611928548923}
   - component: {fileID: 4713235472536585198}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10807,7 +10806,7 @@ GameObject:
   - component: {fileID: 7579367207524970448}
   - component: {fileID: 6061070770405003789}
   - component: {fileID: 2832802688866464668}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10912,7 +10911,7 @@ GameObject:
   - component: {fileID: 8712240110659461319}
   - component: {fileID: 8719030490246836400}
   - component: {fileID: 3235699781005679821}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11017,7 +11016,7 @@ GameObject:
   - component: {fileID: 920386765823958472}
   - component: {fileID: 8041132978825958066}
   - component: {fileID: 579103724087372048}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11122,7 +11121,7 @@ GameObject:
   - component: {fileID: 3994578743851755300}
   - component: {fileID: 8421878073044860192}
   - component: {fileID: 5663553072045113459}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lane Mark (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11215,73 +11214,3 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!1001 &7096748104224862373
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 6782052095306356411}
-    m_Modifications:
-    - target: {fileID: 195393477247975965, guid: 59d23fd5198390f49911553100cd7ca7, type: 3}
-      propertyPath: m_Name
-      value: coin_stack_large
-      objectReference: {fileID: 0}
-    - target: {fileID: 3858956769800812835, guid: 59d23fd5198390f49911553100cd7ca7, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.008333334
-      objectReference: {fileID: 0}
-    - target: {fileID: 3858956769800812835, guid: 59d23fd5198390f49911553100cd7ca7, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.06662225
-      objectReference: {fileID: 0}
-    - target: {fileID: 3858956769800812835, guid: 59d23fd5198390f49911553100cd7ca7, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.17754398
-      objectReference: {fileID: 0}
-    - target: {fileID: 3858956769800812835, guid: 59d23fd5198390f49911553100cd7ca7, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3858956769800812835, guid: 59d23fd5198390f49911553100cd7ca7, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.07219271
-      objectReference: {fileID: 0}
-    - target: {fileID: 3858956769800812835, guid: 59d23fd5198390f49911553100cd7ca7, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3858956769800812835, guid: 59d23fd5198390f49911553100cd7ca7, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.00000008146034
-      objectReference: {fileID: 0}
-    - target: {fileID: 3858956769800812835, guid: 59d23fd5198390f49911553100cd7ca7, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3858956769800812835, guid: 59d23fd5198390f49911553100cd7ca7, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3858956769800812835, guid: 59d23fd5198390f49911553100cd7ca7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3858956769800812835, guid: 59d23fd5198390f49911553100cd7ca7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3858956769800812835, guid: 59d23fd5198390f49911553100cd7ca7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 59d23fd5198390f49911553100cd7ca7, type: 3}
---- !u!4 &6336971978182691206 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3858956769800812835, guid: 59d23fd5198390f49911553100cd7ca7, type: 3}
-  m_PrefabInstance: {fileID: 7096748104224862373}
-  m_PrefabAsset: {fileID: 0}

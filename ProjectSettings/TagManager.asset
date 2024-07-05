@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Currency
+  - Floor
   layers:
   - Default
   - TransparentFX
@@ -12,9 +13,9 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Functionals
+  - Floor
+  - InternalColliders
   - 
   - 
   - 
