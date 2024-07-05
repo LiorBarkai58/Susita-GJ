@@ -43,6 +43,9 @@ public class ObjectPool : MonoBehaviour
     //Gets the next available pooled object
     public GameObject GetPooledObject()
     {
+        if(pooledObjects.Count == 0){
+            return null;
+        }
         float softLimit = 20;
         float limitCounter = 0;
         int index = Random.Range(0, pooledObjects.Count);
