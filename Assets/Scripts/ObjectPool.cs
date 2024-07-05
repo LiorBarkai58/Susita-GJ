@@ -42,12 +42,14 @@ public class ObjectPool : MonoBehaviour
 
     public GameObject GetPooledObject()
     {
+        float softLimit = 20;
+        float limitCounter = 0;
         int index = Random.Range(0, pooledObjects.Count);
-        while (pooledObjects[index].activeInHierarchy)
+        while (pooledObjects[index].activeInHierarchy && limitCounter < softLimit)
         {
             index = Random.Range(0, pooledObjects.Count);
+            limitCounter++;
         }
-        Debug.Log(pooledObjects[index]);
         return pooledObjects[index];
     }
 }
