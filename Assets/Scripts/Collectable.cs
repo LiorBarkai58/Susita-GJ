@@ -23,6 +23,6 @@ public class Collectable : MonoBehaviour
         {
             player.giveCurrency(value);
             Destroy(gameObject, 0.1f);
-        }
+        }   
     }
 }
