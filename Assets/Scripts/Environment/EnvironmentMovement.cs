@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FloorMovement : MonoBehaviour
+public class EnvironmentMovement : MonoBehaviour
 {
-    private float floorSpeed = 12;
+    private float speed = 12;
     
     // Start is called before the first frame update
     void Start()
@@ -15,7 +15,7 @@ public class FloorMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position += new Vector3(floorSpeed,0,0) * Time.deltaTime;
+        transform.position += new Vector3(speed,0,0) * Time.deltaTime;
     }
 
 }
