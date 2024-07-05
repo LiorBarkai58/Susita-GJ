@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class Obstacle : MonoBehaviour
 {
-    [SerializeField] private CamelScript camelLogic;
+    
     private float speed = 12;
+    [SerializeField] private float obstacleStrength;
 
 
 
@@ -23,7 +24,12 @@ public class Obstacle : MonoBehaviour
     }
     void OnTriggerEnter(Collider collider){
         if(collider.gameObject.tag == "Player"){
-            camelLogic.getCloser();
+            if(obstacleStrength == 1){
+                CamelScript.camelInstance.getCloser();
+            }
+            if(obstacleStrength == 2){
+                CamelScript.camelInstance.moveToPlayer();
+            }
         }
     }
 }

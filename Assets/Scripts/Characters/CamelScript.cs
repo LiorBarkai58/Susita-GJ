@@ -6,10 +6,12 @@ using UnityEngine;
 
 public class CamelScript : MonoBehaviour
 {
-    private float currentPos = 2;
+    public static CamelScript camelInstance;
+    private static float currentPos = 2;
     [SerializeField] float moveSpeed = 12f;
 
-    [SerializeField] float distance = 4f;
+    [SerializeField] private float distance = 4f;
+
 
     private float timerDuration = 6f;
     private bool isTimerActive = false;
@@ -21,7 +23,12 @@ public class CamelScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        if(camelInstance != null && camelInstance != this){
+            Destroy(camelInstance);
+        }
+        else{
+            camelInstance = this;
+        }
     }
 
     // Update is called once per frame
@@ -49,4 +56,8 @@ public class CamelScript : MonoBehaviour
     public void moveAway(){
         currentPos += 1;
     }
+    public void moveToPlayer(){
+        currentPos = 0;
+    }
+    
 }
