@@ -8,6 +8,7 @@ public class ObjectPool : MonoBehaviour
     public List<GameObject> pooledObjects;
     public List<GameObject> objectsToPool;
     public int amountToPool;
+    private int floorCounter = 0;
 
     private void Awake()
     {
@@ -39,17 +40,17 @@ public class ObjectPool : MonoBehaviour
     {
         
     }
-
+    //Gets the next available pooled object
     public GameObject GetPooledObject()
     {
         float softLimit = 20;
         float limitCounter = 0;
         int index = Random.Range(0, pooledObjects.Count);
-        while (pooledObjects[index].activeInHierarchy && limitCounter < softLimit)
+        while (pooledObjects[floorCounter % pooledObjects.Count].activeInHierarchy && limitCounter < softLimit)
         {
-            index = Random.Range(0, pooledObjects.Count);
             limitCounter++;
+            floorCounter++;
         }
-        return pooledObjects[index];
+        return pooledObjects[floorCounter%pooledObjects.Count];
     }
 }
