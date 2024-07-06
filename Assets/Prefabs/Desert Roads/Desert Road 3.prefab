@@ -96,7 +96,7 @@ GameObject:
   - component: {fileID: 44950794577285247}
   m_Layer: 0
   m_Name: Desert Road 3
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -156,8 +156,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 73.027145, y: 1.7039921, z: 21.424267}
-  m_Center: {x: -36.013573, y: -0.782632, z: 21.005323}
+  m_Size: {x: 75.60617, y: 1.7039921, z: 21.424267}
+  m_Center: {x: -34.72406, y: -0.782632, z: 21.005323}
 --- !u!114 &44950794577285247
 MonoBehaviour:
   m_ObjectHideFlags: 0
