@@ -6,7 +6,6 @@ public class Obstacle : MonoBehaviour
 {
     
     private float speed = 12;
-    [SerializeField] private float obstacleStrength;
 
 
 
@@ -22,14 +21,6 @@ public class Obstacle : MonoBehaviour
         transform.position += new Vector3(speed,0,0) * Time.deltaTime;
 
     }
-    void OnTriggerEnter(Collider collider){
-        if(collider.gameObject.tag == "Player"){
-            if(obstacleStrength == 1){
-                CamelScript.camelInstance.getCloser();
-            }
-            if(obstacleStrength == 2){
-                CamelScript.camelInstance.moveToPlayer();
-            }
-        }
-    }
+    
+    
 }

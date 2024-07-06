@@ -6,8 +6,8 @@ using UnityEngine;
 
 public class CamelScript : MonoBehaviour
 {
-    public static CamelScript camelInstance;//TODO: do not keep this as singleton
-    private static float currentPos = 2;
+    
+    private float currentPos = 2;
     [SerializeField] float moveSpeed = 12f;
 
     [SerializeField] private float distance = 4f;
@@ -23,12 +23,7 @@ public class CamelScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if(camelInstance != null && camelInstance != this){
-            Destroy(camelInstance);
-        }
-        else{
-            camelInstance = this;
-        }
+        
     }
 
     // Update is called once per frame

@@ -21,6 +21,8 @@ public class PlayerController : MonoBehaviour
     
     private float fallMultiplier = 2.0f;
 
+    [SerializeField] private CamelScript camel;
+
     void Awake(){
         rb = GetComponent<Rigidbody>();
         controls = new Controls();
@@ -67,18 +69,28 @@ public class PlayerController : MonoBehaviour
         this.currency += currency;
     }
     public bool IsGrounded() {
-    RaycastHit hit;
-    float rayLength = 1.1f; // Adjust based on your character's size
-    if (Physics.Raycast(transform.position, Vector3.down, out hit, rayLength)) {
-        return true;
-    }
-    return false;
+        RaycastHit hit;
+        float rayLength = 1.1f; // Adjust based on your character's size
+        if (Physics.Raycast(transform.position, Vector3.down, out hit, rayLength)) {
+            return true;
+        }
+        return false;
 }
 
     
     private void Jump()
     {
         rb.AddForce(Vector3.up*jumpForce, ForceMode.Impulse);
+    }
+    void OnTriggerEnter(Collider collider){
+        if(collider.gameObject.tag == "Obstacle-S"){
+            camel.getCloser();
+        }
+        if(collider.gameObject.tag == "Obstacle-B"){
+            camel.moveToPlayer();
+            Debug.Log("game over logic here");
+        }
+        
     }
     
 }
