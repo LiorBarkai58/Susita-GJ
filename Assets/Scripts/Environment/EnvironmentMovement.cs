@@ -5,6 +5,8 @@ using UnityEngine;
 public class EnvironmentMovement : MonoBehaviour
 {
     private float speed = 12;
+
+    private static bool gameOver = false;
     
     // Start is called before the first frame update
     void Start()
@@ -15,7 +17,13 @@ public class EnvironmentMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position += new Vector3(speed,0,0) * Time.deltaTime;
+        if(!gameOver){
+            transform.position += new Vector3(speed,0,0) * Time.deltaTime;
+        }
+    }
+
+    public static void PlayerCaught(){
+        gameOver = true;
     }
 
 }

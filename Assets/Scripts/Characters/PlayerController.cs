@@ -17,9 +17,11 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float moveSpeed = 12f;
     [SerializeField] private float currency = 0;
 
-    [SerializeField] private float jumpForce = 20f;
+    [SerializeField] private float jumpForce = 7.5f;
+
+    [SerializeField] private GameOver gameoverScreen;
     
-    private float fallMultiplier = 2.5f;
+    [SerializeField] private float fallMultiplier = 2.5f;
 
     private float jumpFallMultiplier = 1.5f;
 
@@ -56,11 +58,9 @@ public class PlayerController : MonoBehaviour
             Jump();
         }
         if(rb.velocity.y < 0){
-            rb.velocity += Vector3.up * Physics.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
+            rb.velocity += Vector3.up * Physics.gravity.y * fallMultiplier * Time.deltaTime;
         }
-        if(rb.velocity.y > 0){
-            rb.velocity += Vector3.up * Physics.gravity.y * (jumpFallMultiplier - 1f) * Time.deltaTime;
-        }
+        
         
         
         if (move.WasPressedThisFrame()){
@@ -94,6 +94,9 @@ public class PlayerController : MonoBehaviour
         if(collider.gameObject.tag == "Obstacle-B"){
             camel.moveToPlayer();
             Debug.Log("game over logic here");
+            EnvironmentMovement.PlayerCaught();
+            gameoverScreen.Setup(10);
+
         }
         
     }
