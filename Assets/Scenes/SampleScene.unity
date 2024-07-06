@@ -138,6 +138,10 @@ PrefabInstance:
       propertyPath: camelLogic
       value: 
       objectReference: {fileID: 2129877461}
+    - target: {fileID: 5167575727913918516, guid: db46bb18d001107438cfaeb58ea288f5, type: 3}
+      propertyPath: obstacleStrength
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8500090806596138567, guid: db46bb18d001107438cfaeb58ea288f5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -33.224365
@@ -520,7 +524,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5747699657578658485, guid: 51e40c5175c1c7846bacffd302062aae, type: 3}
       propertyPath: distance
-      value: 6.5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6764178439678309706, guid: 51e40c5175c1c7846bacffd302062aae, type: 3}
       propertyPath: m_LocalPosition.x
@@ -823,6 +827,10 @@ PrefabInstance:
       propertyPath: camelLogic
       value: 
       objectReference: {fileID: 2129877461}
+    - target: {fileID: 5167575727913918516, guid: db46bb18d001107438cfaeb58ea288f5, type: 3}
+      propertyPath: obstacleStrength
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8500090806596138567, guid: db46bb18d001107438cfaeb58ea288f5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -22.2694

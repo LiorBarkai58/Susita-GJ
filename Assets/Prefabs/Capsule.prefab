@@ -124,7 +124,7 @@ MonoBehaviour:
   currentPos: 0
   moveSpeed: 12
   currency: 0
-  jumpForce: 5
+  jumpForce: 7
 --- !u!54 &5266425398972878985
 Rigidbody:
   m_ObjectHideFlags: 0
