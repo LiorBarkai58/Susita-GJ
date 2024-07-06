@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnvironmentMovement : MonoBehaviour
 {
-    private float speed = 12;
+    private float speed = 15f;
 
     private static bool gameOver = false;
     

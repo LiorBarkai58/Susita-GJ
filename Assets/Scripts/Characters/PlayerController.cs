@@ -66,6 +66,7 @@ public class PlayerController : MonoBehaviour
         if (move.WasPressedThisFrame()){
             float axisValue = move.ReadValue<float>();
             currentPos = Math.Clamp(currentPos + axisValue,-1, 1);
+            camel.moveHorizontal(currentPos);
             if(axisValue == -1){
                 cam.moveLeft();
             }
@@ -97,15 +98,23 @@ public class PlayerController : MonoBehaviour
     void OnTriggerEnter(Collider collider){
         if(collider.gameObject.tag == "Obstacle-S"){
             camel.getCloser();
+            if(camel.isOnPlayer()){
+                endLogic();
+            }
         }
         if(collider.gameObject.tag == "Obstacle-B"){
             camel.moveToPlayer();
-            Debug.Log("game over logic here");
-            EnvironmentMovement.PlayerCaught();
-            gameoverScreen.Setup(10);
+            endLogic();
+            
 
         }
         
+    }
+
+    void endLogic(){
+            Debug.Log("game over logic here");
+            EnvironmentMovement.PlayerCaught();
+            gameoverScreen.Setup(10);
     }
     
 }

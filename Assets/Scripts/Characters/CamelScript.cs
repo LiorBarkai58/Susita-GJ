@@ -8,9 +8,11 @@ public class CamelScript : MonoBehaviour
 {
     
     private float currentPos = 2;
+
+    private float horizontalPos = 0;
     [SerializeField] float moveSpeed = 12f;
 
-    [SerializeField] private float distance = 4f;
+    [SerializeField] private float distance = 3.5f;
 
 
     private float timerDuration = 6f;
@@ -42,17 +44,26 @@ public class CamelScript : MonoBehaviour
             }
         }
         
-        transform.position = Vector3.MoveTowards(transform.position, new Vector3(currentPos*distance, transform.position.y, transform.position.z), Time.deltaTime*moveSpeed);//Should potentially be time.deltatime, currently 1 for testing
-        
+        transform.position = Vector3.MoveTowards(transform.position, new Vector3(currentPos*distance, transform.position.y, horizontalPos*4), Time.deltaTime*moveSpeed);//Should potentially be time.deltatime, currently 1 for testing
+        //Change camel horizontal distance to variable
     }
     public void getCloser(){
-        currentPos -= 1;
+        currentPos = Math.Clamp(currentPos - 1, -1, 0);
+
     }
     public void moveAway(){
-        currentPos += 1;
+        currentPos = Math.Clamp(currentPos + 1, 0, 1);
+
     }
     public void moveToPlayer(){
         currentPos = 0;
+    }
+
+    public void moveHorizontal(float pos){
+        horizontalPos = pos;
+    }
+    public bool isOnPlayer(){
+        return currentPos == 0;
     }
     
 }
