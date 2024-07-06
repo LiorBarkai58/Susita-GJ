@@ -235,6 +235,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3355544, guid: e725ca7a8514ba242a8105b0b068b1af, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -8687932330496876826, guid: 11d9ac2f5f1f8524fb4c3d441e92f4d7, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -935,6 +939,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3355544, guid: e725ca7a8514ba242a8105b0b068b1af, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -8687932330496876826, guid: 11d9ac2f5f1f8524fb4c3d441e92f4d7, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1140,6 +1148,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3355544, guid: e725ca7a8514ba242a8105b0b068b1af, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -8687932330496876826, guid: 11d9ac2f5f1f8524fb4c3d441e92f4d7, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1266,10 +1278,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 730edd68eb8e88e48b92b80b4ca85af1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpHeight: 2
   currentPos: 0
   moveSpeed: 12
   currency: 0
+  jumpForce: 7.5
+  gameoverScreen: {fileID: 0}
+  fallMultiplier: 2.5
+  camel: {fileID: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -1479,6 +1494,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3355544, guid: e725ca7a8514ba242a8105b0b068b1af, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -8687932330496876826, guid: 11d9ac2f5f1f8524fb4c3d441e92f4d7, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1556,6 +1575,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3355544, guid: e725ca7a8514ba242a8105b0b068b1af, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -8687932330496876826, guid: 11d9ac2f5f1f8524fb4c3d441e92f4d7, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1959,7 +1982,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0342b1993d2b404daf1584c958748f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentPos: 0
   moveSpeed: 12
   distance: 4
 --- !u!1001 &488556454672997854
