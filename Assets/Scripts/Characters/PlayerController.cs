@@ -19,7 +19,9 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] private float jumpForce = 20f;
     
-    private float fallMultiplier = 2.0f;
+    private float fallMultiplier = 2.5f;
+
+    private float jumpFallMultiplier = 1.5f;
 
     [SerializeField] private CamelScript camel;
 
@@ -55,6 +57,9 @@ public class PlayerController : MonoBehaviour
         }
         if(rb.velocity.y < 0){
             rb.velocity += Vector3.up * Physics.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
+        }
+        if(rb.velocity.y > 0){
+            rb.velocity += Vector3.up * Physics.gravity.y * (jumpFallMultiplier - 1f) * Time.deltaTime;
         }
         
         
