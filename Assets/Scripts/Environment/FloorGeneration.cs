@@ -10,12 +10,7 @@ public class FloorGeneration : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        GameObject floor = ObjectPool.SharedInstance.GetPooledObject();
-            if (floor != null)
-            {
-                floor.transform.position = new Vector3(0,0,0);
-                floor.SetActive(true);
-            }
+        
     }
 
     // Update is called once per frame

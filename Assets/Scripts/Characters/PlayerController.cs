@@ -23,9 +23,9 @@ public class PlayerController : MonoBehaviour
     
     [SerializeField] private float fallMultiplier = 2.5f;
 
-    private float jumpFallMultiplier = 1.5f;
 
     [SerializeField] private CamelScript camel;
+    [SerializeField] private CameraController cam;
 
     void Awake(){
         rb = GetComponent<Rigidbody>();
@@ -64,7 +64,14 @@ public class PlayerController : MonoBehaviour
         
         
         if (move.WasPressedThisFrame()){
-            currentPos = Math.Clamp(currentPos + move.ReadValue<float>(),-1, 1);
+            float axisValue = move.ReadValue<float>();
+            currentPos = Math.Clamp(currentPos + axisValue,-1, 1);
+            if(axisValue == -1){
+                cam.moveLeft();
+            }
+            if(axisValue == 1){
+                cam.moveRight();
+            }
         }
         transform.position = Vector3.MoveTowards(transform.position, new Vector3(transform.position.x, transform.position.y, currentPos*4), Time.deltaTime*moveSpeed);//Should potentially be time.deltatime, currently 1 for testing
     }
