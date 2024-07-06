@@ -48,11 +48,11 @@ public class CamelScript : MonoBehaviour
         //Change camel horizontal distance to variable
     }
     public void getCloser(){
-        currentPos = Math.Clamp(currentPos - 1, -1, 0);
+        currentPos = Math.Clamp(currentPos - 1, 0, 1);
 
     }
     public void moveAway(){
-        currentPos = Math.Clamp(currentPos + 1, 0, 1);
+        currentPos = Math.Clamp(currentPos + 1, 1, 2);
 
     }
     public void moveToPlayer(){
