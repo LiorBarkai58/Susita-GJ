@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Currency
+  - Floor
+  - Obstacle-B
+  - Obstacle-S
   layers:
   - Default
   - TransparentFX
@@ -12,9 +15,9 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Functionals
+  - Floor
+  - InternalColliders
   - 
   - 
   - 

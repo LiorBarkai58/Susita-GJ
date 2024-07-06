@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
-public class Obstacle : MonoBehaviour
+public class GameOver : MonoBehaviour
 {
+    [SerializeField] private TextMeshProUGUI text;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,5 +16,9 @@ public class Obstacle : MonoBehaviour
     void Update()
     {
         
+    }
+    public void Setup(float meters){
+        gameObject.SetActive(true);
+        text.SetText(meters.ToString());
     }
 }

@@ -12,22 +12,28 @@ public class PlayerController : MonoBehaviour
     InputAction move;
     InputAction jump;
 
-    private bool isJumping = false;
-    private float jumpDuration = 1f;
-    private float jumpSpeed;
-    private float jumpTimer = 0.0f;
-    [SerializeField] private float jumpHeight = 2f;
-    private Vector3 initialPosition;
-
-
+    private Rigidbody rb;
     [SerializeField] float currentPos = 0;
     [SerializeField] float moveSpeed = 12f;
     [SerializeField] private float currency = 0;
 
+    [SerializeField] private float jumpForce = 7.5f;
+
+    [SerializeField] private GameOver gameoverScreen;
+    
+    [SerializeField] private float fallMultiplier = 2.5f;
+
+    private float jumpFallMultiplier = 1.5f;
+
+    [SerializeField] private CamelScript camel;
+
     void Awake(){
+        rb = GetComponent<Rigidbody>();
         controls = new Controls();
         move = controls.Player.Move;
         jump = controls.Player.Jump;
+        
+
     }
     void OnEnable(){
         controls.Enable();
@@ -42,21 +48,21 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        initialPosition = transform.position;
-        jumpSpeed = jumpHeight / jumpDuration;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (jump.WasPressedThisFrame())
-        {
-            StartJump();
-        }
-        if (isJumping)
+        if (jump.WasPressedThisFrame() && IsGrounded())
         {
             Jump();
         }
+        if(rb.velocity.y < 0){
+            rb.velocity += Vector3.up * Physics.gravity.y * fallMultiplier * Time.deltaTime;
+        }
+        
+        
+        
         if (move.WasPressedThisFrame()){
             currentPos = Math.Clamp(currentPos + move.ReadValue<float>(),-1, 1);
         }
@@ -67,17 +73,32 @@ public class PlayerController : MonoBehaviour
     {
         this.currency += currency;
     }
-
-    private void StartJump()
-    {
-        if (!isJumping)
-        {
-            isJumping = true;
-            jumpTimer = 0.0f;
+    public bool IsGrounded() {
+        RaycastHit hit;
+        float rayLength = 1.1f; // Adjust based on your character's size
+        if (Physics.Raycast(transform.position, Vector3.down, out hit, rayLength)) {
+            return true;
         }
-    }
+        return false;
+}
+
+    
     private void Jump()
     {
+        rb.AddForce(Vector3.up*jumpForce, ForceMode.Impulse);
+    }
+    void OnTriggerEnter(Collider collider){
+        if(collider.gameObject.tag == "Obstacle-S"){
+            camel.getCloser();
+        }
+        if(collider.gameObject.tag == "Obstacle-B"){
+            camel.moveToPlayer();
+            Debug.Log("game over logic here");
+            EnvironmentMovement.PlayerCaught();
+            gameoverScreen.Setup(10);
+
+        }
         
     }
+    
 }
