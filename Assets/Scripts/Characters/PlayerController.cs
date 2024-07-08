@@ -14,6 +14,10 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody rb;
     [SerializeField] float currentPos = 0;
+    [SerializeField] bool isMoving = false;
+    [SerializeField] private Cooldown movementCD;
+    private const float MOVE_INPUT_COOLDOWN = 0.15f;
+    
     [SerializeField] float moveSpeed = 12f;
     [SerializeField] private float currency = 0;
 
@@ -28,6 +32,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private CameraController cam;
 
     void Awake(){
+        movementCD = new Cooldown(MOVE_INPUT_COOLDOWN);
         rb = GetComponent<Rigidbody>();
         controls = new Controls();
         move = controls.Player.Move;
@@ -62,19 +67,16 @@ public class PlayerController : MonoBehaviour
         }
         
         
-        
-        if (move.WasPressedThisFrame()){
+        if (move.WasPressedThisFrame() && movementCD.IsReady()){
             float axisValue = move.ReadValue<float>();
             currentPos = Math.Clamp(currentPos + axisValue,-1, 1);
             camel.moveHorizontal(currentPos);
-            if(axisValue == -1){
-                cam.moveLeft();
-            }
-            if(axisValue == 1){
-                cam.moveRight();
-            }
+            movementCD.startCooldown();
+            
         }
-        transform.position = Vector3.MoveTowards(transform.position, new Vector3(transform.position.x, transform.position.y, currentPos*4), Time.deltaTime*moveSpeed);//Should potentially be time.deltatime, currently 1 for testing
+        Move();
+        
+       
     }
 
     public void giveCurrency(float currency)
@@ -94,6 +96,13 @@ public class PlayerController : MonoBehaviour
     private void Jump()
     {
         rb.AddForce(Vector3.up*jumpForce, ForceMode.Impulse);
+    }
+
+
+    private void Move(){
+        
+        float targetZ = Mathf.Lerp(transform.position.z, currentPos*4, Time.deltaTime*moveSpeed);
+        transform.position = new Vector3(transform.position.x, transform.position.y, targetZ);
     }
     void OnTriggerEnter(Collider collider){
         if(collider.gameObject.tag == "Obstacle-S"){
