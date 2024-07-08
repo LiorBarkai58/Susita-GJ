@@ -65,9 +65,9 @@ public class PlayerController : MonoBehaviour
             rb.velocity += Vector3.up * Physics.gravity.y * fallMultiplier * Time.deltaTime;
         }
         
-        
         if (move.WasPressedThisFrame() && movementCD.IsReady()){
-            float axisValue = move.ReadValue<float>();
+            float axisValue = Math.Sign(move.ReadValue<float>());
+            
             currentPos = Math.Clamp(currentPos + axisValue,-1, 1);
             camel.moveHorizontal(currentPos);
             movementCD.startCooldown();
@@ -107,12 +107,13 @@ public class PlayerController : MonoBehaviour
         if(collider.gameObject.tag == "Obstacle-S"){
             camel.getCloser();
             if(camel.isOnPlayer()){
-                endLogic();
+                endLogic(); 
+
             }
         }
         if(collider.gameObject.tag == "Obstacle-B"){
             camel.moveToPlayer();
-            endLogic();
+            endLogic(); 
             
 
         }

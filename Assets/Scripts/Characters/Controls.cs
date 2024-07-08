@@ -25,12 +25,12 @@ public partial class @Controls: IInputActionCollection2, IDisposable
     ""maps"": [
         {
             ""name"": ""Player"",
-            ""id"": ""8d1b6ee7-3e96-42b2-a0b6-f1b249ddfdd2"",
+            ""id"": ""b8a575ff-a84f-4d0d-af82-9c66b56dedb4"",
             ""actions"": [
                 {
                     ""name"": ""Move"",
                     ""type"": ""PassThrough"",
-                    ""id"": ""6501bdba-3f6f-4b37-9ddf-4bb999a14b61"",
+                    ""id"": ""79d2eb1d-b8d8-46f1-a85f-e2c7a4fce39a"",
                     ""expectedControlType"": ""Axis"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -39,7 +39,7 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""Jump"",
                     ""type"": ""Button"",
-                    ""id"": ""ae97dae7-2c21-4ce1-8f01-73813347779a"",
+                    ""id"": ""8437a8f7-80d9-4c7c-87ae-d3c2258d989f"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -49,7 +49,7 @@ public partial class @Controls: IInputActionCollection2, IDisposable
             ""bindings"": [
                 {
                     ""name"": ""1D Axis"",
-                    ""id"": ""3a00b122-1714-4a50-b0d3-963f832f14bc"",
+                    ""id"": ""43b66307-3e4e-4996-8bbc-429239ce7020"",
                     ""path"": ""1DAxis"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -60,7 +60,7 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": ""negative"",
-                    ""id"": ""12fd0dcb-9f27-4e37-8092-efb95d929438"",
+                    ""id"": ""fce2e708-78de-4e30-b80c-333f8eeef354"",
                     ""path"": ""<Keyboard>/a"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -71,7 +71,7 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": ""positive"",
-                    ""id"": ""f52d4b2d-5d1d-46ef-b336-bb80a124dfe8"",
+                    ""id"": ""eeba440d-6ab6-46e8-9c01-5852451a2f8e"",
                     ""path"": ""<Keyboard>/d"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -81,8 +81,41 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": true
                 },
                 {
+                    ""name"": ""Swipe v2"",
+                    ""id"": ""c7ff9fad-9390-47ac-85a1-2e80c759322e"",
+                    ""path"": ""1DAxis"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""negative"",
+                    ""id"": ""a92644db-6378-42fc-a9a4-0bdcdd2dc371"",
+                    ""path"": ""<Touchscreen>/delta/left"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""positive"",
+                    ""id"": ""f6028399-696e-417b-be72-87ae9940e0f3"",
+                    ""path"": ""<Touchscreen>/delta/right"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
                     ""name"": """",
-                    ""id"": ""15c3d9c7-8c81-4a89-ba7f-9e61f2b461c0"",
+                    ""id"": ""8014b4d9-d6e3-4f74-b1de-9a57f153a8b3"",
                     ""path"": ""<Keyboard>/space"",
                     ""interactions"": """",
                     ""processors"": """",

@@ -18,7 +18,6 @@ public class Cooldown
         completeTime = Time.time + duration;
     }
     public bool IsReady(){
-        Debug.Log($"{Time.time} + {completeTime}");
         return Time.time > completeTime;
     }
 }
