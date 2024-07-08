@@ -14,7 +14,6 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody rb;
     [SerializeField] float currentPos = 0;
-    [SerializeField] bool isMoving = false;
     [SerializeField] private Cooldown movementCD;
     private const float MOVE_INPUT_COOLDOWN = 0.15f;
     
