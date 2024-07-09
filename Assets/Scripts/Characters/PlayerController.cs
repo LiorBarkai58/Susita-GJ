@@ -17,6 +17,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Cooldown movementCD;
     private const float MOVE_INPUT_COOLDOWN = 0.15f;
     
+    [SerializeField] EnvironmentManager EnvironmentManager;//Insert the environment manager to this
+
     [SerializeField] float moveSpeed = 12f;
     [SerializeField] private float currency = 0;
 
@@ -106,6 +108,7 @@ public class PlayerController : MonoBehaviour
     void OnTriggerEnter(Collider collider){
         if(collider.gameObject.tag == "Obstacle-S"){
             camel.getCloser();
+            EnvironmentManager.reduceSpeed();
             if(camel.isOnPlayer()){
                 endLogic(); 
 

@@ -28,7 +28,7 @@ public class EnvironmentManager : MonoBehaviour
         gameOver = true;
     }
     public void reduceSpeed(){
-
+        StartCoroutine(slow());
     }
     IEnumerator slow(){
         reducedSpeed = 10;

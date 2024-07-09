@@ -5,7 +5,6 @@ using UnityEngine;
 
 public class Obstacle : MonoBehaviour
 {
-    [SerializeField] EnvironmentManager EnvironmentManager;//Insert the environment manager to this
 
 
 
@@ -20,11 +19,7 @@ public class Obstacle : MonoBehaviour
     {
 
     }
-    void OnTriggerEnter(Collider collider){
-        if(collider.gameObject.tag == "Player"){
-            EnvironmentManager.reduceSpeed();
-        }
-    }
+    
     
     
 }
