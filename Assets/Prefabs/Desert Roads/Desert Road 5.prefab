@@ -93,7 +93,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1245382287079650442}
   - component: {fileID: 7053406094015709341}
-  - component: {fileID: 44950794577285247}
   m_Layer: 0
   m_Name: Desert Road 5
   m_TagString: Floor
@@ -165,18 +164,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 75.60617, y: 1.7039921, z: 21.424267}
   m_Center: {x: -34.72406, y: -0.782632, z: 21.005323}
---- !u!114 &44950794577285247
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 842902810206713758}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3cc3fa0ab83bd384ba786ffe75d51df0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &6207531377367525623
 GameObject:
   m_ObjectHideFlags: 0

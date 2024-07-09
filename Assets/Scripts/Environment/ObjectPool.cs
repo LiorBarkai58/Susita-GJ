@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ObjectPool : MonoBehaviour
 {
+    [SerializeField] GameObject EnvironmentManager;
     public static ObjectPool SharedInstance;
     public List<GameObject> pooledObjects;
     public List<GameObject> objectsToPool;
@@ -29,7 +30,7 @@ public class ObjectPool : MonoBehaviour
         GameObject tmp;
         for (int i = 0; i < objectsToPool.Count; i++)
         {
-            tmp = Instantiate(objectsToPool[i]);
+            tmp = Instantiate(objectsToPool[i], EnvironmentManager.transform);
             tmp.SetActive(false);
             pooledObjects.Add(tmp);
         }

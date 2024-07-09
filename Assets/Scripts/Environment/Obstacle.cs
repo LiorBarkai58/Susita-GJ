@@ -1,11 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Obstacle : MonoBehaviour
 {
-    
-    private float speed = 12;
+    [SerializeField] EnvironmentManager EnvironmentManager;//Insert the environment manager to this
 
 
 
@@ -18,8 +18,12 @@ public class Obstacle : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position += new Vector3(speed,0,0) * Time.deltaTime;
 
+    }
+    void OnTriggerEnter(Collider collider){
+        if(collider.gameObject.tag == "Player"){
+            EnvironmentManager.reduceSpeed();
+        }
     }
     
     

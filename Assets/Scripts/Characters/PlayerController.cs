@@ -122,7 +122,7 @@ public class PlayerController : MonoBehaviour
 
     void endLogic(){
             Debug.Log("game over logic here");
-            EnvironmentMovement.PlayerCaught();
+            EnvironmentManager.PlayerCaught();
             gameoverScreen.Setup(10);
     }
     
