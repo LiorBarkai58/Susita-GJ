@@ -15,7 +15,7 @@ public class EnvironmentManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        gameOver = false;
     }
 
     // Update is called once per frame
@@ -23,7 +23,6 @@ public class EnvironmentManager : MonoBehaviour
     {
         float targetSpeed = speed - reducedSpeed;
         currentSpeed = Mathf.Lerp(currentSpeed, targetSpeed,Time.deltaTime);
-        Debug.Log(currentSpeed);
         if(!gameOver){
             transform.position += new Vector3(currentSpeed,0,0) * Time.deltaTime;
         }
