@@ -3,9 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
+//This script will hold all the basic functions for the ui buttons that every scene will have
+//Things like, Pause screen, back to menu, maybe some powerups.
 public class ButtonBehavior : MonoBehaviour
 {
-    // Start is called before the first frame update
+    //Reloads current scene
     public void RetryCurrentLevel()
     {
         Debug.Log("Button clicked!");
