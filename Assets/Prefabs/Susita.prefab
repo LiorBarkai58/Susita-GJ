@@ -219,6 +219,8 @@ GameObject:
   - component: {fileID: 7626138651390880466}
   - component: {fileID: -7334026290950498937}
   - component: {fileID: 1110067420311328248}
+  - component: {fileID: 7784851014725293827}
+  - component: {fileID: -1754563888217451701}
   m_Layer: 0
   m_Name: Susita
   m_TagString: Untagged
@@ -269,12 +271,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentPos: 0
+  EnvironmentManager: {fileID: 0}
   moveSpeed: 12
   currency: 0
   jumpForce: 7.5
   gameoverScreen: {fileID: 0}
   fallMultiplier: 2.5
   camel: {fileID: 0}
+  cam: {fileID: 0}
 --- !u!54 &1110067420311328248
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -302,6 +306,40 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 122
   m_CollisionDetection: 0
+--- !u!65 &7784851014725293827
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2286138906422520890}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7351732, y: 1.6481696, z: 3.6137295}
+  m_Center: {x: -0.06409025, y: 0.7026064, z: 0.055378437}
+--- !u!114 &-1754563888217451701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2286138906422520890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf7ba5b822404964b99ef23ce37953e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currency: 0
 --- !u!1 &3107432006624747279
 GameObject:
   m_ObjectHideFlags: 0
