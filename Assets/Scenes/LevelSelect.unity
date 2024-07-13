@@ -589,6 +589,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1281661871}
+    - target: {fileID: 1099748728820425956, guid: 7a5e901a013bb00459d3b7ddf10f3281, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: QRreader
+      objectReference: {fileID: 0}
+    - target: {fileID: 1453256809005038839, guid: 7a5e901a013bb00459d3b7ddf10f3281, type: 3}
+      propertyPath: m_text
+      value: QR
+      objectReference: {fileID: 0}
     - target: {fileID: 2849513481862358344, guid: 7a5e901a013bb00459d3b7ddf10f3281, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 

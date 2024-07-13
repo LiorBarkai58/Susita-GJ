@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TestDesert.unity
     guid: 1ad3867e2b199c84f8bae4627fcdf229
-  m_configObjects: {}
+  - enabled: 1
+    path: Assets/Scenes/QRreader.unity
+    guid: cae5f328da5b0d844b9b05d2653e8634
+  m_configObjects:
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 2bf5f51d79d8a04469cb7d12adbeb8bf, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 8e601330b3e7a8447bb80313b71cb533, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: d6a2d0813ac776a4d8d9458d77cf37ec, type: 2}
