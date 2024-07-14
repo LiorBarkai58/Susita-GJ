@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class EnvironmentManager : MonoBehaviour
 {
+    //This script manages the movement of the environment, slowing it down, stopping it or speeding up.
     private float speed = 25f;
 
     private static bool gameOver = false;

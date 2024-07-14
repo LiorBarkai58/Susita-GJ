@@ -6,7 +6,8 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    [SerializeField] private GameObject player;
+    //Camera controller, uses player position to determine its position
+    [SerializeField] private GameObject player;//Attach player prefab in scene to the camera
 
     private float zRatio = 0.65f;
     // Start is called before the first frame update
