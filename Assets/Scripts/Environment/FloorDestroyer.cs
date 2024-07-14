@@ -5,6 +5,7 @@ using UnityEngine;
 public class FloorDestroyer : MonoBehaviour
 {
     //Floor destroyer commander of the nine hells.
+    //This script is attached to the FloorDestroyer prefab, detects floors and disables them
     // Start is called before the first frame update
     void Start()
     {

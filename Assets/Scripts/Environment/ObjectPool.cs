@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class ObjectPool : MonoBehaviour
 {
-    [SerializeField] GameObject EnvironmentManager;
+    //Object pool with all the possible floors to generate.
+    //This is using object pooling to improve performance
+    [SerializeField] GameObject EnvironmentManager;//Environment manager prefab
     public static ObjectPool SharedInstance;
     public List<GameObject> pooledObjects;
-    public List<GameObject> objectsToPool;
+    public List<GameObject> objectsToPool;//Add roads in inspector
     public int amountToPool;
     private int floorCounter = 0;
 

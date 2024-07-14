@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class FloorGeneration : MonoBehaviour
 {
-    [SerializeField] List<GameObject> floors;
+    //This script is attached to the floorgenerator prefab
     
 
     // Start is called before the first frame update
