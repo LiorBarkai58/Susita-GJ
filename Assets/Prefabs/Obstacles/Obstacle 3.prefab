@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3196782905897929209}
   - component: {fileID: 2921602700146643395}
   - component: {fileID: 623275095192872846}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Obstacle 3
   m_TagString: Obstacle-S
   m_Icon: {fileID: 0}
@@ -118,4 +118,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aadcffa97467c4e4a9879fba05741f0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EnvironmentManager: {fileID: 0}

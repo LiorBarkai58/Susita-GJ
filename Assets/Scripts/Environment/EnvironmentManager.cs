@@ -12,6 +12,7 @@ public class EnvironmentManager : MonoBehaviour
     private float reducedSpeed = 0;
 
     private float currentSpeed = 0;
+    private float _boostValue = 8f;
     
     // Start is called before the first frame update
     void Start()
@@ -35,6 +36,14 @@ public class EnvironmentManager : MonoBehaviour
     public void reduceSpeed(){
         StartCoroutine(slow());
     }
+
+    public void InitiateSpeedBoost(){
+        reducedSpeed = -_boostValue;
+    }
+    public void CancelSpeedBoost(){
+        reducedSpeed = 0;
+    }
+
     IEnumerator slow(){
         reducedSpeed = 10;
         yield return new WaitForSeconds(6f);

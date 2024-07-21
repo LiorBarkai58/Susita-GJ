@@ -51,10 +51,7 @@ public class PlayerController : MonoBehaviour
         move.Disable();
         jump.Disable();
     }
-    // Start is called before the first frame update
-    void Start()
-    {
-    }
+    
 
     // Update is called once per frame
     void Update()
@@ -105,28 +102,9 @@ public class PlayerController : MonoBehaviour
         float targetZ = Mathf.Lerp(transform.position.z, currentPos*4, Time.deltaTime*moveSpeed);
         transform.position = new Vector3(transform.position.x, transform.position.y, targetZ);
     }
-    void OnTriggerEnter(Collider collider){
-        if(collider.gameObject.tag == "Obstacle-S"){
-            camel.getCloser();
-            EnvironmentManager.reduceSpeed();
-            if(camel.isOnPlayer()){
-                endLogic(); 
 
-            }
-        }
-        if(collider.gameObject.tag == "Obstacle-B"){
-            camel.moveToPlayer();
-            endLogic(); 
-            
+    
 
-        }
-        
-    }
-
-    void endLogic(){
-            Debug.Log("game over logic here");
-            EnvironmentManager.PlayerCaught();
-            gameoverScreen.Setup(10);
-    }
+    
     
 }
