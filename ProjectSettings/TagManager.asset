@@ -9,6 +9,8 @@ TagManager:
   - Obstacle-B
   - Obstacle-S
   - Collectable
+  - SpeedBoost
+  - ShieldP
   layers:
   - Default
   - TransparentFX
@@ -20,7 +22,7 @@ TagManager:
   - Floor
   - InternalColliders
   - Collection
-  - 
+  - Obstacles
   - 
   - 
   - 
