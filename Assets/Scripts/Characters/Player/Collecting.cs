@@ -12,7 +12,6 @@ public class Collecting : MonoBehaviour
 
     private float _powerupDuration = 6f;
     private bool _isProtected = false;
-    private bool _speedBoost = false;
     
     //Will destroy and object with the tag "collectable"
     //Currency logic is yet to be implemented
