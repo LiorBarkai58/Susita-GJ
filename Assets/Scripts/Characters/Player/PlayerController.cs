@@ -33,6 +33,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private CamelScript camel;
     [SerializeField] private CameraController cam;
 
+    [SerializeField] private LayerMask TouchLayer;
+
     void Awake(){
         movementCD = new Cooldown(MOVE_INPUT_COOLDOWN);
         rb = GetComponent<Rigidbody>();
@@ -84,16 +86,16 @@ public class PlayerController : MonoBehaviour
             RaycastHit hit;
 
             // Check if the ray hits an object in the scene
-            if (Physics.Raycast(ray, out hit, Mathf.Infinity, 7))
+            if (Physics.Raycast(ray, out hit, Mathf.Infinity, TouchLayer))
             {
                 // Move the object to the hit point
-                transform.position = new Vector3(transform.position.x, transform.position.y, hit.point.z);
+                transform.position = Vector3.MoveTowards(transform.position,new Vector3(transform.position.x, transform.position.y, Math.Clamp(hit.point.z, -4, 4)), Time.deltaTime* moveSpeed);
             }
             // Vector3 worldPosition = Camera.main.ScreenToWorldPoint(new Vector3(_inputVector.x, _inputVector.y, Camera.main.nearClipPlane));
             // Debug.Log(worldPosition);
             // transform.position = new Vector3(transform.position.x, transform.position.y, worldPosition.z);
         }
-        Move();
+        // Move();
         
        
     }
