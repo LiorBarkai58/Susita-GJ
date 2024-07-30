@@ -53,6 +53,15 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""FollowMove"",
+                    ""type"": ""PassThrough"",
+                    ""id"": ""a05dbee8-909f-464e-92b7-486eb27f4933"",
+                    ""expectedControlType"": ""Vector2"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -143,6 +152,17 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                     ""action"": ""Powerup"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""42005f23-a048-4eb6-93cb-3e9d2b6e6e96"",
+                    ""path"": ""<Touchscreen>/primaryTouch/position"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""FollowMove"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -154,6 +174,7 @@ public partial class @Controls: IInputActionCollection2, IDisposable
         m_Player_Move = m_Player.FindAction("Move", throwIfNotFound: true);
         m_Player_Jump = m_Player.FindAction("Jump", throwIfNotFound: true);
         m_Player_Powerup = m_Player.FindAction("Powerup", throwIfNotFound: true);
+        m_Player_FollowMove = m_Player.FindAction("FollowMove", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -218,6 +239,7 @@ public partial class @Controls: IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_Move;
     private readonly InputAction m_Player_Jump;
     private readonly InputAction m_Player_Powerup;
+    private readonly InputAction m_Player_FollowMove;
     public struct PlayerActions
     {
         private @Controls m_Wrapper;
@@ -225,6 +247,7 @@ public partial class @Controls: IInputActionCollection2, IDisposable
         public InputAction @Move => m_Wrapper.m_Player_Move;
         public InputAction @Jump => m_Wrapper.m_Player_Jump;
         public InputAction @Powerup => m_Wrapper.m_Player_Powerup;
+        public InputAction @FollowMove => m_Wrapper.m_Player_FollowMove;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -243,6 +266,9 @@ public partial class @Controls: IInputActionCollection2, IDisposable
             @Powerup.started += instance.OnPowerup;
             @Powerup.performed += instance.OnPowerup;
             @Powerup.canceled += instance.OnPowerup;
+            @FollowMove.started += instance.OnFollowMove;
+            @FollowMove.performed += instance.OnFollowMove;
+            @FollowMove.canceled += instance.OnFollowMove;
         }
 
         private void UnregisterCallbacks(IPlayerActions instance)
@@ -256,6 +282,9 @@ public partial class @Controls: IInputActionCollection2, IDisposable
             @Powerup.started -= instance.OnPowerup;
             @Powerup.performed -= instance.OnPowerup;
             @Powerup.canceled -= instance.OnPowerup;
+            @FollowMove.started -= instance.OnFollowMove;
+            @FollowMove.performed -= instance.OnFollowMove;
+            @FollowMove.canceled -= instance.OnFollowMove;
         }
 
         public void RemoveCallbacks(IPlayerActions instance)
@@ -278,5 +307,6 @@ public partial class @Controls: IInputActionCollection2, IDisposable
         void OnMove(InputAction.CallbackContext context);
         void OnJump(InputAction.CallbackContext context);
         void OnPowerup(InputAction.CallbackContext context);
+        void OnFollowMove(InputAction.CallbackContext context);
     }
 }

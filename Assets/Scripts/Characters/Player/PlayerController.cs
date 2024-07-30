@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
     Controls controls;
     InputAction move;
     InputAction jump;
+    InputAction FollowMove;
 
     private Rigidbody rb;
     [SerializeField] float currentPos = 0;
@@ -38,6 +39,7 @@ public class PlayerController : MonoBehaviour
         controls = new Controls();
         move = controls.Player.Move;
         jump = controls.Player.Jump;
+        FollowMove = controls.Player.FollowMove;
         
 
     }
@@ -45,11 +47,14 @@ public class PlayerController : MonoBehaviour
         controls.Enable();
         move.Enable();
         jump.Enable();
+        FollowMove.Enable();
     }
     void OnDisable(){
         controls.Disable();
         move.Disable();
         jump.Disable();
+        FollowMove.Disable();
+
     }
     
 
@@ -64,13 +69,29 @@ public class PlayerController : MonoBehaviour
             rb.velocity += Vector3.up * Physics.gravity.y * fallMultiplier * Time.deltaTime;
         }
         
-        if (move.WasPressedThisFrame() && movementCD.IsReady()){
-            float axisValue = Math.Sign(move.ReadValue<float>());
+        // if (move.WasPressedThisFrame() && movementCD.IsReady()){
+        //     float axisValue = Math.Sign(move.ReadValue<float>());
             
-            currentPos = Math.Clamp(currentPos + axisValue,-1, 1);
-            camel.moveHorizontal(currentPos);
-            movementCD.startCooldown();
+        //     currentPos = Math.Clamp(currentPos + axisValue,-1, 1);
+        //     camel.moveHorizontal(currentPos);
+        //     movementCD.startCooldown();
             
+        // }
+        if(FollowMove.IsPressed()){
+            Vector2 _inputVector = FollowMove.ReadValue<Vector2>();
+
+            Ray ray = Camera.main.ScreenPointToRay(_inputVector);
+            RaycastHit hit;
+
+            // Check if the ray hits an object in the scene
+            if (Physics.Raycast(ray, out hit, Mathf.Infinity, 7))
+            {
+                // Move the object to the hit point
+                transform.position = new Vector3(transform.position.x, transform.position.y, hit.point.z);
+            }
+            // Vector3 worldPosition = Camera.main.ScreenToWorldPoint(new Vector3(_inputVector.x, _inputVector.y, Camera.main.nearClipPlane));
+            // Debug.Log(worldPosition);
+            // transform.position = new Vector3(transform.position.x, transform.position.y, worldPosition.z);
         }
         Move();
         
