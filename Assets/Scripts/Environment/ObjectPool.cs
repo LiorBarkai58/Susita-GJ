@@ -10,6 +10,10 @@ public class ObjectPool : MonoBehaviour
     public static ObjectPool SharedInstance;
     public List<GameObject> pooledObjects;
     public List<GameObject> objectsToPool;//Add roads in inspector
+
+    public GameObject finalObject;
+
+    public bool PoolFinalObject = false;
     public int amountToPool;
     private int floorCounter = 0;
 
@@ -36,6 +40,9 @@ public class ObjectPool : MonoBehaviour
             tmp.SetActive(false);
             pooledObjects.Add(tmp);
         }
+        finalObject = Instantiate(finalObject, EnvironmentManager.transform);
+        finalObject.SetActive(false);
+        pooledObjects.Add(finalObject);
     }
 
     // Update is called once per frame
@@ -46,12 +53,11 @@ public class ObjectPool : MonoBehaviour
     //Gets the next available pooled object
     public GameObject GetPooledObject()
     {
-        if(pooledObjects.Count == 0){
-            return null;
+        if(pooledObjects.Count == 0 || PoolFinalObject){
+            return finalObject;
         }
         float softLimit = 20;
         float limitCounter = 0;
-        int index = Random.Range(0, pooledObjects.Count);
         while (pooledObjects[floorCounter % pooledObjects.Count].activeInHierarchy && limitCounter < softLimit)
         {
             limitCounter++;

@@ -35,6 +35,8 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] private LayerMask TouchLayer;
 
+    private Vector3 _targetPosition;
+
     void Awake(){
         movementCD = new Cooldown(MOVE_INPUT_COOLDOWN);
         rb = GetComponent<Rigidbody>();
@@ -42,6 +44,7 @@ public class PlayerController : MonoBehaviour
         move = controls.Player.Move;
         jump = controls.Player.Jump;
         FollowMove = controls.Player.FollowMove;
+        _targetPosition = transform.position;
         
 
     }
@@ -79,25 +82,30 @@ public class PlayerController : MonoBehaviour
         //     movementCD.startCooldown();
             
         // }
-        if(FollowMove.IsPressed()){
-            Vector2 _inputVector = FollowMove.ReadValue<Vector2>();
-
-            Ray ray = Camera.main.ScreenPointToRay(_inputVector);
-            RaycastHit hit;
-
-            // Check if the ray hits an object in the scene
-            if (Physics.Raycast(ray, out hit, Mathf.Infinity, TouchLayer))
-            {
-                // Move the object to the hit point
-                transform.position = Vector3.MoveTowards(transform.position,new Vector3(transform.position.x, transform.position.y, Math.Clamp(hit.point.z, -4, 4)), Time.deltaTime* moveSpeed);
-            }
-            // Vector3 worldPosition = Camera.main.ScreenToWorldPoint(new Vector3(_inputVector.x, _inputVector.y, Camera.main.nearClipPlane));
-            // Debug.Log(worldPosition);
-            // transform.position = new Vector3(transform.position.x, transform.position.y, worldPosition.z);
+        if(FollowMove.WasPerformedThisFrame()){
+            Debug.Log("clicked");
+            _targetPosition = GetHitFromClick();
+            
         }
+        transform.position = Vector3.MoveTowards(transform.position,new Vector3(transform.position.x, transform.position.y, Math.Clamp(_targetPosition.z, -4, 4)), Time.deltaTime* moveSpeed);
+
         // Move();
         
        
+    }
+    private Vector3 GetHitFromClick(){
+        Vector2 _inputVector = FollowMove.ReadValue<Vector2>();
+
+        Ray ray = Camera.main.ScreenPointToRay(_inputVector);
+        RaycastHit hit;
+
+        // Check if the ray hits an object in the scene
+        if (Physics.Raycast(ray, out hit, Mathf.Infinity, TouchLayer))
+        {   
+            Debug.DrawRay(ray.origin, ray.direction*10f, Color.red);
+            // Move the object to the hit point
+        }
+        return hit.point;
     }
 
     public void giveCurrency(float currency)
