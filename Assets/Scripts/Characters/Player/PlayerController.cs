@@ -6,6 +6,7 @@ using UnityEngine.Animations;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.Composites;
 
+
 public class PlayerController : MonoBehaviour
 {
     Controls controls;
@@ -13,6 +14,7 @@ public class PlayerController : MonoBehaviour
     InputAction jump;
     InputAction FollowMove;
 
+    InputAction Skill;
     private Rigidbody rb;
     [SerializeField] float currentPos = 0;
     [SerializeField] private Cooldown movementCD;
@@ -35,6 +37,8 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] private LayerMask TouchLayer;
 
+    private SkillManager _skillManager;
+
     private Vector3 _targetPosition;
 
     void Awake(){
@@ -44,6 +48,7 @@ public class PlayerController : MonoBehaviour
         move = controls.Player.Move;
         jump = controls.Player.Jump;
         FollowMove = controls.Player.FollowMove;
+        Skill = controls.Player.Skill;
         _targetPosition = transform.position;
         
 
@@ -53,12 +58,15 @@ public class PlayerController : MonoBehaviour
         move.Enable();
         jump.Enable();
         FollowMove.Enable();
+        Skill.Enable();
     }
+
     void OnDisable(){
         controls.Disable();
         move.Disable();
         jump.Disable();
         FollowMove.Disable();
+        Skill.Disable();
 
     }
     
@@ -69,6 +77,9 @@ public class PlayerController : MonoBehaviour
         if (jump.WasPressedThisFrame() && IsGrounded())
         {
             Jump();
+        }
+        if (Skill.WasPressedThisFrame()){
+            _skillManager.ActivateSkill();
         }
         if(rb.linearVelocity.y < 0){
             rb.linearVelocity += Vector3.up * Physics.gravity.y * fallMultiplier * Time.deltaTime;
@@ -82,8 +93,7 @@ public class PlayerController : MonoBehaviour
         //     movementCD.startCooldown();
             
         // }
-        if(FollowMove.WasPerformedThisFrame()){
-            Debug.Log("clicked");
+        if(FollowMove.WasPerformedThisFrame() && !HoverableUI.UIHovered){
             _targetPosition = GetHitFromClick();
             
         }
@@ -134,6 +144,7 @@ public class PlayerController : MonoBehaviour
         transform.position = new Vector3(transform.position.x, transform.position.y, targetZ);
     }
 
+    
     
 
     
