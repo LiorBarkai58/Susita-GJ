@@ -8,19 +8,20 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/LevelSelect.unity
     guid: 0d3da43020cf3b843957ee8350d06769
   - enabled: 1
     path: Assets/Scenes/DesertLevel.unity
     guid: 8e47cf6a291843641b36d33d642e822d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/TestDesert.unity
     guid: 1ad3867e2b199c84f8bae4627fcdf229
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/QRreader.unity
     guid: cae5f328da5b0d844b9b05d2653e8634
   m_configObjects:
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 2bf5f51d79d8a04469cb7d12adbeb8bf, type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 8e601330b3e7a8447bb80313b71cb533, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: d6a2d0813ac776a4d8d9458d77cf37ec, type: 2}
+  m_UseUCBPForAssetBundles: 0

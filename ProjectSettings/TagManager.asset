@@ -11,6 +11,7 @@ TagManager:
   - Collectable
   - SpeedBoost
   - ShieldP
+  - Garage
   layers:
   - Default
   - TransparentFX

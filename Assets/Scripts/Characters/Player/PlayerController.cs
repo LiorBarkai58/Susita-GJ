@@ -70,8 +70,8 @@ public class PlayerController : MonoBehaviour
         {
             Jump();
         }
-        if(rb.velocity.y < 0){
-            rb.velocity += Vector3.up * Physics.gravity.y * fallMultiplier * Time.deltaTime;
+        if(rb.linearVelocity.y < 0){
+            rb.linearVelocity += Vector3.up * Physics.gravity.y * fallMultiplier * Time.deltaTime;
         }
         
         // if (move.WasPressedThisFrame() && movementCD.IsReady()){
