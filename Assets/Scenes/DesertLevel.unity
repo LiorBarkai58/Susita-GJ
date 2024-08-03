@@ -2030,7 +2030,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   EnvironmentManager: {fileID: 524742885}
-  skill: 1
+  _currentSkill: 0
 --- !u!1001 &5497236893907571834
 PrefabInstance:
   m_ObjectHideFlags: 0
