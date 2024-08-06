@@ -72,6 +72,15 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""TakeOff"",
+                    ""type"": ""Button"",
+                    ""id"": ""0b6bb20b-85ae-417c-a091-44d2d3419aec"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -184,6 +193,17 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                     ""action"": ""Skill"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""600b001f-b2c9-4809-91ee-d04956b48390"",
+                    ""path"": ""<Keyboard>/1"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""TakeOff"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -197,6 +217,7 @@ public partial class @Controls: IInputActionCollection2, IDisposable
         m_Player_Powerup = m_Player.FindAction("Powerup", throwIfNotFound: true);
         m_Player_FollowMove = m_Player.FindAction("FollowMove", throwIfNotFound: true);
         m_Player_Skill = m_Player.FindAction("Skill", throwIfNotFound: true);
+        m_Player_TakeOff = m_Player.FindAction("TakeOff", throwIfNotFound: true);
     }
 
     ~@Controls()
@@ -268,6 +289,7 @@ public partial class @Controls: IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_Powerup;
     private readonly InputAction m_Player_FollowMove;
     private readonly InputAction m_Player_Skill;
+    private readonly InputAction m_Player_TakeOff;
     public struct PlayerActions
     {
         private @Controls m_Wrapper;
@@ -277,6 +299,7 @@ public partial class @Controls: IInputActionCollection2, IDisposable
         public InputAction @Powerup => m_Wrapper.m_Player_Powerup;
         public InputAction @FollowMove => m_Wrapper.m_Player_FollowMove;
         public InputAction @Skill => m_Wrapper.m_Player_Skill;
+        public InputAction @TakeOff => m_Wrapper.m_Player_TakeOff;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -301,6 +324,9 @@ public partial class @Controls: IInputActionCollection2, IDisposable
             @Skill.started += instance.OnSkill;
             @Skill.performed += instance.OnSkill;
             @Skill.canceled += instance.OnSkill;
+            @TakeOff.started += instance.OnTakeOff;
+            @TakeOff.performed += instance.OnTakeOff;
+            @TakeOff.canceled += instance.OnTakeOff;
         }
 
         private void UnregisterCallbacks(IPlayerActions instance)
@@ -320,6 +346,9 @@ public partial class @Controls: IInputActionCollection2, IDisposable
             @Skill.started -= instance.OnSkill;
             @Skill.performed -= instance.OnSkill;
             @Skill.canceled -= instance.OnSkill;
+            @TakeOff.started -= instance.OnTakeOff;
+            @TakeOff.performed -= instance.OnTakeOff;
+            @TakeOff.canceled -= instance.OnTakeOff;
         }
 
         public void RemoveCallbacks(IPlayerActions instance)
@@ -344,5 +373,6 @@ public partial class @Controls: IInputActionCollection2, IDisposable
         void OnPowerup(InputAction.CallbackContext context);
         void OnFollowMove(InputAction.CallbackContext context);
         void OnSkill(InputAction.CallbackContext context);
+        void OnTakeOff(InputAction.CallbackContext context);
     }
 }
