@@ -38,7 +38,7 @@ MonoBehaviour:
   rippleNoiseScale: 1
   enableWave: 1
   waveDirection: 206
-  waveSpeed: 5
+  waveSpeed: 30
   waveHeight: 0.33
   waveLength: 50
   waveSteepness: 0.742

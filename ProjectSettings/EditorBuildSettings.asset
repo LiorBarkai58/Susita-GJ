@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/LevelSelect.unity
     guid: 0d3da43020cf3b843957ee8350d06769
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/DesertLevel.unity
     guid: 8e47cf6a291843641b36d33d642e822d
   - enabled: 0
@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/QRreader.unity
     guid: cae5f328da5b0d844b9b05d2653e8634
+  - enabled: 1
+    path: Assets/Scenes/Jordan Level.unity
+    guid: bd26028cc1e0baa49a62789de304a758
   m_configObjects:
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 2bf5f51d79d8a04469cb7d12adbeb8bf, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: d551247deabf7c442b3aa51177543b75, type: 3}

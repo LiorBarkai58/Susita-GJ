@@ -34,6 +34,7 @@ public class CamelScript : MonoBehaviour
         if(currentPos == 1 ){
             if(!isTimerActive){
                 isTimerActive = true;
+                timer = 0;
                 timer += Time.deltaTime;
             }
             else{
@@ -41,10 +42,11 @@ public class CamelScript : MonoBehaviour
             }
             if(timer > timerDuration){
                 moveAway();
+                isTimerActive = false;
             }
         }
         
-        transform.position = Vector3.MoveTowards(transform.position, new Vector3(currentPos*distance, transform.position.y, horizontalPos*4), Time.deltaTime*moveSpeed);//Should potentially be time.deltatime, currently 1 for testing
+        transform.position = Vector3.MoveTowards(transform.position, new Vector3(currentPos*distance, transform.position.y, horizontalPos), Time.deltaTime*moveSpeed);//Should potentially be time.deltatime, currently 1 for testing
         //Change camel horizontal distance to variable
     }
     public void getCloser(){

@@ -6,6 +6,8 @@ public class Collecting : MonoBehaviour
 {
     enum Powerups {Shielded, Speeded}
     [SerializeField] EnvironmentManager EnvironmentManager;//Insert the environment manager to this
+
+    [SerializeField] CarManager carManager;
     [SerializeField] private CamelScript camel;
     
     [SerializeField] private GameOver gameoverScreen;
@@ -27,6 +29,7 @@ public class Collecting : MonoBehaviour
                 return;
             }
             camel.getCloser();
+            carManager.OnPartDestroy();
             EnvironmentManager.reduceSpeed();
             if(camel.isOnPlayer()){
                 endLogic(); 
