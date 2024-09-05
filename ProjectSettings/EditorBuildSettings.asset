@@ -5,15 +5,18 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 38b0947ad6c88cb4fa4ec90d34adc827
+  - enabled: 1
+    path: Assets/Scenes/DesertLevel.unity
+    guid: 8e47cf6a291843641b36d33d642e822d
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 0
     path: Assets/Scenes/LevelSelect.unity
     guid: 0d3da43020cf3b843957ee8350d06769
-  - enabled: 1
-    path: Assets/Scenes/DesertLevel.unity
-    guid: 8e47cf6a291843641b36d33d642e822d
   - enabled: 0
     path: Assets/Scenes/TestDesert.unity
     guid: 1ad3867e2b199c84f8bae4627fcdf229
