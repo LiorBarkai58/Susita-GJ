@@ -41,6 +41,8 @@ public class CamelScript : MonoBehaviour
             }
             if(timer > timerDuration){
                 moveAway();
+                timer = 0;
+                isTimerActive = false;
             }
         }
         
