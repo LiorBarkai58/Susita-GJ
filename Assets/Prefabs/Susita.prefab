@@ -699,7 +699,6 @@ GameObject:
   - component: {fileID: 1110067420311328248}
   - component: {fileID: 7784851014725293827}
   - component: {fileID: 8739775302083460847}
-  - component: {fileID: 3599134602451634801}
   m_Layer: 0
   m_Name: Susita
   m_TagString: Untagged
@@ -770,9 +769,9 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2286138906422520890}
   serializedVersion: 4
-  m_Mass: 0.5
+  m_Mass: 0.1
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 1.5
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -808,8 +807,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.7351732, y: 1.7944287, z: 3.6137295}
-  m_Center: {x: -0.06409025, y: 0.9533194, z: 0.055378437}
+  m_Size: {x: 1.7351732, y: 0.30771828, z: 3.6437101}
+  m_Center: {x: -0.06409025, y: 0.20996419, z: 0.11250186}
 --- !u!114 &8739775302083460847
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -826,73 +825,6 @@ MonoBehaviour:
   - {fileID: 3296939420297791920}
   - {fileID: 8017751352157127920}
   - {fileID: 1632539329097460646}
---- !u!114 &3599134602451634801
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2286138906422520890}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: d551247deabf7c442b3aa51177543b75, type: 3}
-  m_NotificationBehavior: 2
-  m_UIInputModule: {fileID: 0}
-  m_DeviceLostEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_DeviceRegainedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ControlsChangedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ActionEvents:
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 79d2eb1d-b8d8-46f1-a85f-e2c7a4fce39a
-    m_ActionName: 'Player/Move[/Keyboard/a,/Keyboard/d,/Device Simulator Touchscreen/delta/left,/Device
-      Simulator Touchscreen/delta/right]'
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 8437a8f7-80d9-4c7c-87ae-d3c2258d989f
-    m_ActionName: 'Player/Jump[/Keyboard/space]'
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 223936dc-aef2-448f-b231-2a7b9655bd7e
-    m_ActionName: 'Player/Powerup[/Keyboard/j]'
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: a05dbee8-909f-464e-92b7-486eb27f4933
-    m_ActionName: 'Player/FollowMove[/Device Simulator Touchscreen/primaryTouch/position]'
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 3f1b6bc0-9a07-43d9-adbc-d84b08f2c6f6
-    m_ActionName: 'Player/Skill[/Keyboard/f]'
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 8739775302083460847}
-        m_TargetAssemblyTypeName: CarManager, Assembly-CSharp
-        m_MethodName: OnPartDestroy
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: 0b6bb20b-85ae-417c-a091-44d2d3419aec
-    m_ActionName: 'Player/TakeOff[/Keyboard/1]'
-  m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
-  m_DefaultActionMap: Player
-  m_SplitScreenIndex: -1
-  m_Camera: {fileID: 0}
 --- !u!1 &3118337277423987239
 GameObject:
   m_ObjectHideFlags: 0
