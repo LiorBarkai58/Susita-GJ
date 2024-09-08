@@ -185,7 +185,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7543763685990631944}
   - component: {fileID: 4654607242451449409}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: FRDoor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -278,7 +278,7 @@ GameObject:
   - component: {fileID: 4843460263698404886}
   - component: {fileID: 3877223528596579277}
   - component: {fileID: 192388616581525837}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: pCube3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2449,7 +2449,7 @@ GameObject:
   - component: {fileID: 8238178867718728199}
   - component: {fileID: 5120229112252919135}
   - component: {fileID: 1183769565973705499}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Door2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2760,8 +2760,7 @@ GameObject:
   - component: {fileID: 1110067420311328248}
   - component: {fileID: 7784851014725293827}
   - component: {fileID: 8739775302083460847}
-  - component: {fileID: 3599134602451634801}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Sabra
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2831,9 +2830,9 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2286138906422520890}
   serializedVersion: 4
-  m_Mass: 0.5
+  m_Mass: 3
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 6
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -2884,76 +2883,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   carParts:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
---- !u!114 &3599134602451634801
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2286138906422520890}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: d551247deabf7c442b3aa51177543b75, type: 3}
-  m_NotificationBehavior: 2
-  m_UIInputModule: {fileID: 0}
-  m_DeviceLostEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_DeviceRegainedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ControlsChangedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ActionEvents:
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 79d2eb1d-b8d8-46f1-a85f-e2c7a4fce39a
-    m_ActionName: 'Player/Move[/Keyboard/a,/Keyboard/d,/Device Simulator Touchscreen/delta/left,/Device
-      Simulator Touchscreen/delta/right]'
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 8437a8f7-80d9-4c7c-87ae-d3c2258d989f
-    m_ActionName: 'Player/Jump[/Keyboard/space]'
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 223936dc-aef2-448f-b231-2a7b9655bd7e
-    m_ActionName: 'Player/Powerup[/Keyboard/j]'
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: a05dbee8-909f-464e-92b7-486eb27f4933
-    m_ActionName: 'Player/FollowMove[/Device Simulator Touchscreen/primaryTouch/position]'
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 3f1b6bc0-9a07-43d9-adbc-d84b08f2c6f6
-    m_ActionName: 'Player/Skill[/Keyboard/f]'
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 8739775302083460847}
-        m_TargetAssemblyTypeName: CarManager, Assembly-CSharp
-        m_MethodName: OnPartDestroy
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: 0b6bb20b-85ae-417c-a091-44d2d3419aec
-    m_ActionName: 'Player/TakeOff[/Keyboard/1]'
-  m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
-  m_DefaultActionMap: Player
-  m_SplitScreenIndex: -1
-  m_Camera: {fileID: 0}
+  - {fileID: 7891801506130496936}
+  - {fileID: 1277467086093165431}
+  - {fileID: 4654607242451449409}
 --- !u!1 &2493153522171220888
 GameObject:
   m_ObjectHideFlags: 0
@@ -2964,7 +2896,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4111091463086239041}
   - component: {fileID: 1277467086093165431}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: EngineDoor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4216,7 +4148,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2800279183623044110}
   - component: {fileID: 7891801506130496936}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Back
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7645,7 +7577,7 @@ GameObject:
   - component: {fileID: 2423587337572548966}
   - component: {fileID: 2123357942920987658}
   - component: {fileID: 8882815001920404383}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: polySurface59
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7909,7 +7841,7 @@ GameObject:
   - component: {fileID: 2496852081177683752}
   - component: {fileID: 1788860670823536643}
   - component: {fileID: 4198396297433439063}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: pCube4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
