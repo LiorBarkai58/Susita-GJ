@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/LevelSelect.unity
     guid: 0d3da43020cf3b843957ee8350d06769
   - enabled: 0
-    path: Assets/Scenes/DesertLevel.unity
+    path: Assets/Scenes/Old Desert Level/DesertLevel.unity
     guid: 8e47cf6a291843641b36d33d642e822d
   - enabled: 0
     path: Assets/Scenes/TestDesert.unity
