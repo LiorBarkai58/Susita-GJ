@@ -100,12 +100,12 @@ public class PlayerController : MonoBehaviour
         //     movementCD.startCooldown();
             
         // }
-        if(FollowMove.WasPerformedThisFrame() && !HoverableUI.UIHovered){
+        if((FollowMove.WasPerformedThisFrame() || FollowMove.IsPressed())&& !HoverableUI.UIHovered){
             _targetPosition = GetHitFromClick();
             
             
         }
-        transform.position = Vector3.MoveTowards(transform.position,new Vector3(transform.position.x,targetY > 0 ? targetY : transform.position.y, Math.Clamp(_targetPosition.z, -4, 4)), Time.deltaTime* moveSpeed);
+        transform.position = Vector3.Lerp(transform.position,new Vector3(transform.position.x,targetY > 0 ? targetY : transform.position.y, Math.Clamp(_targetPosition.z, -0.93f, 4.1f)), Time.deltaTime * moveSpeed);
         camel.moveHorizontal(transform.position.z);
         // Move();
         
