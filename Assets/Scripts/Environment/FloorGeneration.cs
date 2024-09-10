@@ -10,7 +10,6 @@ public class FloorGeneration : MonoBehaviour
         {
             Vector3 roadPos = collider.transform.parent.position + new Vector3(-roadLength, 0, 0);
             GameObject floor = ObjectPool.SharedInstance.GetPooledObject();
-            Debug.Log(floor);
             if (floor != null)
             {
                 floor.transform.position = roadPos;
