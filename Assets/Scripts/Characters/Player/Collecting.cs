@@ -6,9 +6,15 @@ public class Collecting : MonoBehaviour
 {
     enum Powerups {Shielded, Speeded}
     [SerializeField] EnvironmentManager EnvironmentManager;//Insert the environment manager to this
+
+    [SerializeField] CarManager carManager;
     [SerializeField] private CamelScript camel;
     
     [SerializeField] private GameOver gameoverScreen;
+
+    [SerializeField] private PlayerController player;
+
+    [SerializeField] private GameObject bulletPrefab;
 
     private float _powerupDuration = 6f;
     private bool _isProtected = false;
@@ -27,6 +33,7 @@ public class Collecting : MonoBehaviour
                 return;
             }
             camel.getCloser();
+            carManager.OnPartDestroy();
             EnvironmentManager.reduceSpeed();
             if(camel.isOnPlayer()){
                 endLogic(); 
@@ -53,6 +60,15 @@ public class Collecting : MonoBehaviour
             Destroy(collider.gameObject);
             StartCoroutine(SpeedBoost());
         }
+        if(collider.CompareTag("Flight")){
+            Destroy(collider.gameObject);
+            StartCoroutine(player.Flight(10));
+        }
+        if(collider.CompareTag("BoomBullet")){
+            Destroy(collider.gameObject);
+            Instantiate(bulletPrefab, transform.position + new Vector3(-5,1 ,0), Quaternion.identity);
+        }
+        
 
         
         

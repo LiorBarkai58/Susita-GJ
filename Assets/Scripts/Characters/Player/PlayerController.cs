@@ -13,6 +13,8 @@ public class PlayerController : MonoBehaviour
     InputAction move;
     InputAction jump;
     InputAction FollowMove;
+    InputAction TakeOff;
+
 
     InputAction Skill;
     private Rigidbody rb;
@@ -41,6 +43,8 @@ public class PlayerController : MonoBehaviour
 
     private Vector3 _targetPosition;
 
+    private float targetY;
+
     void Awake(){
         movementCD = new Cooldown(MOVE_INPUT_COOLDOWN);
         rb = GetComponent<Rigidbody>();
@@ -49,7 +53,9 @@ public class PlayerController : MonoBehaviour
         jump = controls.Player.Jump;
         FollowMove = controls.Player.FollowMove;
         Skill = controls.Player.Skill;
+        TakeOff = controls.Player.TakeOff;
         _targetPosition = transform.position;
+
         
 
     }
@@ -59,6 +65,7 @@ public class PlayerController : MonoBehaviour
         jump.Enable();
         FollowMove.Enable();
         Skill.Enable();
+        TakeOff.Enable();
     }
 
     void OnDisable(){
@@ -67,6 +74,7 @@ public class PlayerController : MonoBehaviour
         jump.Disable();
         FollowMove.Disable();
         Skill.Disable();
+        TakeOff.Disable();
 
     }
     
@@ -81,9 +89,8 @@ public class PlayerController : MonoBehaviour
         if (Skill.WasPressedThisFrame()){
             _skillManager.ActivateSkill();
         }
-        if(rb.linearVelocity.y < 0){
-            rb.linearVelocity += Vector3.up * Physics.gravity.y * fallMultiplier * Time.deltaTime;
-        }
+        
+        
         
         // if (move.WasPressedThisFrame() && movementCD.IsReady()){
         //     float axisValue = Math.Sign(move.ReadValue<float>());
@@ -93,12 +100,13 @@ public class PlayerController : MonoBehaviour
         //     movementCD.startCooldown();
             
         // }
-        if(FollowMove.WasPerformedThisFrame() && !HoverableUI.UIHovered){
+        if((FollowMove.WasPerformedThisFrame() || FollowMove.IsPressed())&& !HoverableUI.UIHovered){
             _targetPosition = GetHitFromClick();
             
+            
         }
-        transform.position = Vector3.MoveTowards(transform.position,new Vector3(transform.position.x, transform.position.y, Math.Clamp(_targetPosition.z, -4, 4)), Time.deltaTime* moveSpeed);
-
+        transform.position = Vector3.Lerp(transform.position,new Vector3(transform.position.x,targetY > 0 ? targetY : transform.position.y, Math.Clamp(_targetPosition.z, -0.93f, 4.1f)), Time.deltaTime * moveSpeed);
+        camel.moveHorizontal(transform.position.z);
         // Move();
         
        
@@ -115,6 +123,10 @@ public class PlayerController : MonoBehaviour
             Debug.DrawRay(ray.origin, ray.direction*10f, Color.red);
             // Move the object to the hit point
         }
+        if(hit.point == new Vector3(0,0,0)){
+            return _targetPosition;
+        }
+        
         return hit.point;
     }
 
@@ -142,6 +154,14 @@ public class PlayerController : MonoBehaviour
         
         float targetZ = Mathf.Lerp(transform.position.z, currentPos*4, Time.deltaTime*moveSpeed);
         transform.position = new Vector3(transform.position.x, transform.position.y, targetZ);
+    }
+    public IEnumerator Flight(float duration){
+        rb.isKinematic = true;
+        targetY = 6.5f;
+        yield return new WaitForSeconds(duration);
+        rb.isKinematic = false;
+        targetY = 0;
+
     }
 
     
