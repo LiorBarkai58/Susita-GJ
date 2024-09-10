@@ -19,6 +19,5 @@ public class GameOver : MonoBehaviour
     }
     public void Setup(float meters){
         gameObject.SetActive(true);
-        text.SetText(meters.ToString());
     }
 }
