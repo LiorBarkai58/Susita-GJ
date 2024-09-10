@@ -12,7 +12,6 @@ public class QRCodeReader : MonoBehaviour
 
     public static Dictionary<string, int> gameLevels = new Dictionary<string, int>()
     {
-        ["Level 1"] = 1,
         ["Level 2"] = 2,
         ["Level 3"] = 3
     };
