@@ -12,6 +12,10 @@ public class Collecting : MonoBehaviour
     
     [SerializeField] private GameOver gameoverScreen;
 
+    [SerializeField] private PlayerController player;
+
+    [SerializeField] private GameObject bulletPrefab;
+
     private float _powerupDuration = 6f;
     private bool _isProtected = false;
     
@@ -56,6 +60,15 @@ public class Collecting : MonoBehaviour
             Destroy(collider.gameObject);
             StartCoroutine(SpeedBoost());
         }
+        if(collider.CompareTag("Flight")){
+            Destroy(collider.gameObject);
+            StartCoroutine(player.Flight(10));
+        }
+        if(collider.CompareTag("BoomBullet")){
+            Destroy(collider.gameObject);
+            Instantiate(bulletPrefab, transform.position + new Vector3(-5,1 ,0), Quaternion.identity);
+        }
+        
 
         
         

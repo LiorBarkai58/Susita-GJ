@@ -12,6 +12,9 @@ TagManager:
   - SpeedBoost
   - ShieldP
   - Garage
+  - Flight
+  - Bullet
+  - BoomBullet
   layers:
   - Default
   - TransparentFX
