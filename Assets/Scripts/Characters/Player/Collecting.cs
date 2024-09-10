@@ -10,6 +10,8 @@ public class Collecting : MonoBehaviour
     
     [SerializeField] private GameOver gameoverScreen;
 
+    [SerializeField] private PlayerController player;
+
     private float _powerupDuration = 6f;
     private bool _isProtected = false;
     
@@ -53,6 +55,11 @@ public class Collecting : MonoBehaviour
             Destroy(collider.gameObject);
             StartCoroutine(SpeedBoost());
         }
+        if(collider.CompareTag("Flight")){
+            Destroy(collider.gameObject);
+            StartCoroutine(player.Flight(10));
+        }
+        
 
         
         
