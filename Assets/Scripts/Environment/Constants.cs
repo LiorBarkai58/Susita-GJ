@@ -5,5 +5,5 @@ using UnityEngine;
 public class Constants
 {
     //Constants file
-    public static float roadLength = 75f;
+    public static float roadLength = 90f;
 }

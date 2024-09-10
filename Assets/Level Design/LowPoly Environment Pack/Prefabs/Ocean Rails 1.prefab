@@ -1,0 +1,2427 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5911785383374894139
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5206182439153289216}
+  m_Layer: 0
+  m_Name: Ocean Rails 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5206182439153289216
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5911785383374894139}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.14, y: 0.175, z: -1.6371002}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6200599333464387607}
+  - {fileID: 3331432122850222959}
+  - {fileID: 7161847218012357176}
+  - {fileID: 6244172817821670186}
+  - {fileID: 2245559421701552296}
+  - {fileID: 5583829182564011538}
+  - {fileID: 5891850156912162810}
+  - {fileID: 6457620925759652457}
+  - {fileID: 5685316290613594904}
+  - {fileID: 6447933372668653667}
+  - {fileID: 4075975336304771370}
+  - {fileID: 3758836964642500945}
+  - {fileID: 4733699146663713492}
+  - {fileID: 7748019847699074506}
+  - {fileID: 4990458248555739522}
+  - {fileID: 6493168815563629092}
+  - {fileID: 5128497776019648018}
+  - {fileID: 3636356201612945480}
+  - {fileID: 9179796964907203105}
+  - {fileID: 6280757522716796199}
+  - {fileID: 5943796776664052131}
+  - {fileID: 8749812654050019589}
+  - {fileID: 64945462223007945}
+  - {fileID: 8171308194659052504}
+  - {fileID: 6972889675807120396}
+  - {fileID: 4250869101706484563}
+  - {fileID: 7906591839430947254}
+  - {fileID: 9089581989380902255}
+  - {fileID: 2537931052846549466}
+  - {fileID: 8070395640857106532}
+  - {fileID: 6665412795936725214}
+  - {fileID: 5735171752123689774}
+  - {fileID: 8949426843588252910}
+  - {fileID: 487009986455505855}
+  - {fileID: 6325986177715784712}
+  - {fileID: 3897268477846627796}
+  - {fileID: 1573724665497027794}
+  - {fileID: 8436161232089368016}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &76109335149216727
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5206182439153289216}
+    m_Modifications:
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 42.258
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3892167559803037902, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_Name
+      value: Ocean Rail Part (16)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+--- !u!4 &3331432122850222959 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+  m_PrefabInstance: {fileID: 76109335149216727}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &868473502597065058
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5206182439153289216}
+    m_Modifications:
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.944996
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3892167559803037902, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_Name
+      value: Ocean Rail Part (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+--- !u!4 &2537931052846549466 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+  m_PrefabInstance: {fileID: 868473502597065058}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1570599828660894699
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5206182439153289216}
+    m_Modifications:
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 76.556
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3892167559803037902, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_Name
+      value: Ocean Rail Part (27)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+--- !u!4 &4250869101706484563 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+  m_PrefabInstance: {fileID: 1570599828660894699}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1703837497069019538
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5206182439153289216}
+    m_Modifications:
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 15.827999
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3892167559803037902, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_Name
+      value: Ocean Rail Part (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+--- !u!4 &4075975336304771370 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+  m_PrefabInstance: {fileID: 1703837497069019538}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1810477682951521644
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5206182439153289216}
+    m_Modifications:
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 81.84599
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3892167559803037902, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_Name
+      value: Ocean Rail Part (31)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+--- !u!4 &3897268477846627796 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+  m_PrefabInstance: {fileID: 1810477682951521644}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1954536510626107881
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5206182439153289216}
+    m_Modifications:
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 58.086002
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3892167559803037902, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_Name
+      value: Ocean Rail Part (21)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+--- !u!4 &3758836964642500945 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+  m_PrefabInstance: {fileID: 1954536510626107881}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2108551483012450544
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5206182439153289216}
+    m_Modifications:
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 94.978
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3892167559803037902, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_Name
+      value: Ocean Rail Part (35)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+--- !u!4 &3636356201612945480 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+  m_PrefabInstance: {fileID: 2108551483012450544}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3024114186705087239
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5206182439153289216}
+    m_Modifications:
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 71.306
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3892167559803037902, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_Name
+      value: Ocean Rail Part (30)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+--- !u!4 &487009986455505855 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+  m_PrefabInstance: {fileID: 3024114186705087239}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3446169993797587057
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5206182439153289216}
+    m_Modifications:
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 23.758
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3892167559803037902, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_Name
+      value: Ocean Rail Part (10)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+--- !u!4 &64945462223007945 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+  m_PrefabInstance: {fileID: 3446169993797587057}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3466697153243797520
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5206182439153289216}
+    m_Modifications:
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 21.103
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3892167559803037902, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_Name
+      value: Ocean Rail Part (8)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+--- !u!4 &2245559421701552296 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+  m_PrefabInstance: {fileID: 3466697153243797520}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4243240680257856618
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5206182439153289216}
+    m_Modifications:
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 89.75299
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3892167559803037902, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_Name
+      value: Ocean Rail Part (34)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+--- !u!4 &1573724665497027794 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+  m_PrefabInstance: {fileID: 4243240680257856618}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4668601995515345116
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5206182439153289216}
+    m_Modifications:
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 50.203
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3892167559803037902, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_Name
+      value: Ocean Rail Part (28)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+--- !u!4 &8070395640857106532 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+  m_PrefabInstance: {fileID: 4668601995515345116}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4795244773561700622
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5206182439153289216}
+    m_Modifications:
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 84.463
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3892167559803037902, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_Name
+      value: Ocean Rail Part (33)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+--- !u!4 &7906591839430947254 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+  m_PrefabInstance: {fileID: 4795244773561700622}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4950447561539235186
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5206182439153289216}
+    m_Modifications:
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 68.651
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3892167559803037902, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_Name
+      value: Ocean Rail Part (22)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+--- !u!4 &7748019847699074506 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+  m_PrefabInstance: {fileID: 4950447561539235186}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5500589275731075712
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5206182439153289216}
+    m_Modifications:
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10.537998
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3892167559803037902, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_Name
+      value: Ocean Rail Part (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+--- !u!4 &7161847218012357176 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+  m_PrefabInstance: {fileID: 5500589275731075712}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5760478733760855220
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5206182439153289216}
+    m_Modifications:
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 34.298
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3892167559803037902, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_Name
+      value: Ocean Rail Part (14)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+--- !u!4 &6972889675807120396 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+  m_PrefabInstance: {fileID: 5760478733760855220}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5787348069162523289
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5206182439153289216}
+    m_Modifications:
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.6549988
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3892167559803037902, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_Name
+      value: Ocean Rail Part (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+--- !u!4 &9179796964907203105 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+  m_PrefabInstance: {fileID: 5787348069162523289}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5841543088323915223
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5206182439153289216}
+    m_Modifications:
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 92.343
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3892167559803037902, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_Name
+      value: Ocean Rail Part (36)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+--- !u!4 &9089581989380902255 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+  m_PrefabInstance: {fileID: 5841543088323915223}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5982815056056120406
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5206182439153289216}
+    m_Modifications:
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 29.048
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3892167559803037902, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_Name
+      value: Ocean Rail Part (11)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+--- !u!4 &8949426843588252910 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+  m_PrefabInstance: {fileID: 5982815056056120406}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6221844467576973757
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5206182439153289216}
+    m_Modifications:
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 55.451
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3892167559803037902, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_Name
+      value: Ocean Rail Part (25)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+--- !u!4 &8749812654050019589 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+  m_PrefabInstance: {fileID: 6221844467576973757}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6496083083993998696
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5206182439153289216}
+    m_Modifications:
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 97.632996
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3892167559803037902, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_Name
+      value: Ocean Rail Part (37)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+--- !u!4 &8436161232089368016 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+  m_PrefabInstance: {fileID: 6496083083993998696}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6796964650544860000
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5206182439153289216}
+    m_Modifications:
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 66.01601
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3892167559803037902, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_Name
+      value: Ocean Rail Part (26)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+--- !u!4 &8171308194659052504 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+  m_PrefabInstance: {fileID: 6796964650544860000}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6963293478509267862
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5206182439153289216}
+    m_Modifications:
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 60.741
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3892167559803037902, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_Name
+      value: Ocean Rail Part (29)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+--- !u!4 &5735171752123689774 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+  m_PrefabInstance: {fileID: 6963293478509267862}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7049180011776633760
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5206182439153289216}
+    m_Modifications:
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.289997
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3892167559803037902, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_Name
+      value: Ocean Rail Part (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+--- !u!4 &5685316290613594904 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+  m_PrefabInstance: {fileID: 7049180011776633760}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7081987219586100906
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5206182439153289216}
+    m_Modifications:
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 63.361004
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3892167559803037902, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_Name
+      value: Ocean Rail Part (18)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+--- !u!4 &5583829182564011538 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+  m_PrefabInstance: {fileID: 7081987219586100906}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7501289824816533162
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5206182439153289216}
+    m_Modifications:
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 87.09799
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3892167559803037902, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_Name
+      value: Ocean Rail Part (32)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+--- !u!4 &5128497776019648018 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+  m_PrefabInstance: {fileID: 7501289824816533162}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7670845684876843322
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5206182439153289216}
+    m_Modifications:
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 36.933002
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3892167559803037902, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_Name
+      value: Ocean Rail Part (13)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+--- !u!4 &4990458248555739522 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+  m_PrefabInstance: {fileID: 7670845684876843322}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7963631462023756396
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5206182439153289216}
+    m_Modifications:
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 26.393002
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3892167559803037902, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_Name
+      value: Ocean Rail Part (9)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+--- !u!4 &4733699146663713492 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+  m_PrefabInstance: {fileID: 7963631462023756396}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8337771819798886502
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5206182439153289216}
+    m_Modifications:
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 18.482998
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3892167559803037902, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_Name
+      value: Ocean Rail Part (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+--- !u!4 &6665412795936725214 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+  m_PrefabInstance: {fileID: 8337771819798886502}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8442459805882860188
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5206182439153289216}
+    m_Modifications:
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 79.190994
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3892167559803037902, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_Name
+      value: Ocean Rail Part (23)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+--- !u!4 &6493168815563629092 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+  m_PrefabInstance: {fileID: 8442459805882860188}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8524843406649987291
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5206182439153289216}
+    m_Modifications:
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 47.548
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3892167559803037902, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_Name
+      value: Ocean Rail Part (20)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+--- !u!4 &6447933372668653667 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+  m_PrefabInstance: {fileID: 8524843406649987291}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8551190897036993233
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5206182439153289216}
+    m_Modifications:
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 73.901
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3892167559803037902, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_Name
+      value: Ocean Rail Part (19)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+--- !u!4 &6457620925759652457 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+  m_PrefabInstance: {fileID: 8551190897036993233}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8654864484530947487
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5206182439153289216}
+    m_Modifications:
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 44.913
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3892167559803037902, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_Name
+      value: Ocean Rail Part (24)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+--- !u!4 &6280757522716796199 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+  m_PrefabInstance: {fileID: 8654864484530947487}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8718845997674851504
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5206182439153289216}
+    m_Modifications:
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 39.588
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3892167559803037902, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_Name
+      value: Ocean Rail Part (15)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+--- !u!4 &6325986177715784712 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+  m_PrefabInstance: {fileID: 8718845997674851504}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8735029349772824751
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5206182439153289216}
+    m_Modifications:
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3892167559803037902, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_Name
+      value: Ocean Rail Part
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+--- !u!4 &6200599333464387607 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+  m_PrefabInstance: {fileID: 8735029349772824751}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8760126675289652114
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5206182439153289216}
+    m_Modifications:
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 52.796
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3892167559803037902, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_Name
+      value: Ocean Rail Part (17)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+--- !u!4 &6244172817821670186 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+  m_PrefabInstance: {fileID: 8760126675289652114}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &9027854101640450331
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5206182439153289216}
+    m_Modifications:
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 13.192997
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3892167559803037902, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_Name
+      value: Ocean Rail Part (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+--- !u!4 &5943796776664052131 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+  m_PrefabInstance: {fileID: 9027854101640450331}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &9147360961238996802
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5206182439153289216}
+    m_Modifications:
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 31.643002
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3892167559803037902, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+      propertyPath: m_Name
+      value: Ocean Rail Part (12)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+--- !u!4 &5891850156912162810 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3401900882231107768, guid: 31242a495924a1741a62a1018ef33ba2, type: 3}
+  m_PrefabInstance: {fileID: 9147360961238996802}
+  m_PrefabAsset: {fileID: 0}

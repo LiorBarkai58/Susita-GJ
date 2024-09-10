@@ -7,8 +7,8 @@ public class CarManager : MonoBehaviour{
     [SerializeField] private List<Rigidbody> carParts;
 
 
-    public void OnPartDestroy(InputAction.CallbackContext context){
-        if(context.started && carParts.Count > 0){
+    public void OnPartDestroy(){
+        if(carParts.Count > 0){
             Rigidbody current = carParts[Random.Range(0, carParts.Count)];
             current.isKinematic = false;
             current.linearVelocity = new Vector3(20,12,0);

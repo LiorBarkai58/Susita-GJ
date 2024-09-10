@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 //This script will hold all the basic functions for the ui buttons that every scene will have
 //Things like, Pause screen, back to menu, maybe some powerups.
-public class ButtonBehavior : MonoBehaviour
+public class ButtonBehavior : HoverableUI
 {
     //Reloads current scene
     public void RetryCurrentLevel()

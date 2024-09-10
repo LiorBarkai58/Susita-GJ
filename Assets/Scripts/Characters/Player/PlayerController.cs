@@ -53,6 +53,7 @@ public class PlayerController : MonoBehaviour
         Skill = controls.Player.Skill;
         TakeOff = controls.Player.TakeOff;
         _targetPosition = transform.position;
+
         
 
     }
@@ -87,9 +88,7 @@ public class PlayerController : MonoBehaviour
             _skillManager.ActivateSkill();
         }
         
-        if(rb.linearVelocity.y < 0){
-            rb.linearVelocity += Vector3.up * Physics.gravity.y * fallMultiplier * Time.deltaTime;
-        }
+        
         
         // if (move.WasPressedThisFrame() && movementCD.IsReady()){
         //     float axisValue = Math.Sign(move.ReadValue<float>());
@@ -102,9 +101,10 @@ public class PlayerController : MonoBehaviour
         if(FollowMove.WasPerformedThisFrame() && !HoverableUI.UIHovered){
             _targetPosition = GetHitFromClick();
             
+            
         }
-        transform.position = Vector3.MoveTowards(transform.position,new Vector3(transform.position.x, transform.position.y, Math.Clamp(_targetPosition.z, -4, 4)), Time.deltaTime* moveSpeed);
-
+        transform.position = Vector3.MoveTowards(transform.position,new Vector3(transform.position.x, transform.position.y, Math.Clamp(_targetPosition.z, -1.85f, 1.85f)), Time.deltaTime* moveSpeed);
+        camel.moveHorizontal(transform.position.z);
         // Move();
         
        
@@ -144,11 +144,7 @@ public class PlayerController : MonoBehaviour
     }
 
 
-    private void Move(){
-        
-        float targetZ = Mathf.Lerp(transform.position.z, currentPos*4, Time.deltaTime*moveSpeed);
-        transform.position = new Vector3(transform.position.x, transform.position.y, targetZ);
-    }
+    
 
     
     
