@@ -9,11 +9,10 @@ public class FiberGlass : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Player")
-        {
-            Debug.Log("PointsCollected");
-            playerScore.AddToScore(points);
-            Destroy(gameObject, 0.1f);
-        }
+        if (!other.gameObject.CompareTag("Player")) return;
+        
+        Debug.Log("PointsCollected");
+        playerScore.AddToScore(points);
+        Destroy(gameObject);
     }
 }
