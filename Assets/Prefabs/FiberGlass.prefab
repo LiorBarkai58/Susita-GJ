@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 401616146858025719}
   - component: {fileID: 6614668808712762886}
   - component: {fileID: 6463202410907203202}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: FiberGlass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
