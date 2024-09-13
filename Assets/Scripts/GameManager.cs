@@ -1,6 +1,7 @@
 using System;
 using Characters.Player;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -25,6 +26,7 @@ public class GameManager : MonoBehaviour
         inGameUi.SetActive(false);
         gameOverWinUi.SetActive(true);
         pause.PauseGame();
+        PlayerPrefs.SetInt($"{SceneManager.GetActiveScene().buildIndex}", 1);
     }
     
 }
