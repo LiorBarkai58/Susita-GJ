@@ -74,7 +74,7 @@ public class Collecting : MonoBehaviour
         }
         if(collider.CompareTag("BoomBullet")){
             Destroy(collider.gameObject);
-            Instantiate(bulletPrefab, transform.position + new Vector3(-5,1 ,0), Quaternion.identity);
+            Instantiate(bulletPrefab, transform.position + new Vector3(-5,0 ,0), Quaternion.identity);
         }
         
 
