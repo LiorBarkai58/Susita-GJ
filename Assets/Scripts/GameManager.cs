@@ -16,6 +16,10 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private int winingScore = 1000;
 
+    void Start(){
+        Time.timeScale = 1;
+    }
+
     private void Update()
     {
         CheckWin();
