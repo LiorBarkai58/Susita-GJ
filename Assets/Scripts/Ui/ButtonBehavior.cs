@@ -14,6 +14,7 @@ public class ButtonBehavior : HoverableUI
         Debug.Log("Button clicked!");
         Scene currentScene = SceneManager.GetActiveScene();
         
+        Time.timeScale = 1;
         // Reload the current scene using its name
         SceneManager.LoadScene(currentScene.name);
         // Add your button click handling logic here

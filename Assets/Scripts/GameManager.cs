@@ -10,6 +10,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject inGameUi;
     [SerializeField] private GameObject gameOverWinUi;
 
+    [SerializeField] private GameObject gameOverLoseUi;
+
     [SerializeField] private Pause pause;
 
     [SerializeField] private int winingScore = 1000;
@@ -27,6 +29,18 @@ public class GameManager : MonoBehaviour
         gameOverWinUi.SetActive(true);
         pause.PauseGame();
         PlayerPrefs.SetInt($"{SceneManager.GetActiveScene().buildIndex}", 1);
+    }
+
+    public void TriggerWin(){
+        inGameUi.SetActive(false);
+        gameOverWinUi.SetActive(true);
+        pause.PauseGame();
+        PlayerPrefs.SetInt($"{SceneManager.GetActiveScene().buildIndex}", 1);
+    }
+    public void TriggerLoss(){
+        inGameUi.SetActive(false);
+        gameOverLoseUi.SetActive(true);
+        pause.PauseGame();
     }
     
 }
