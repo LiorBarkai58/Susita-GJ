@@ -13,6 +13,8 @@ public class EnvironmentManager : MonoBehaviour
 
     private float currentSpeed = 0;
     private float _boostValue = 8f;
+
+    public bool IsSlowed = false;
     
     // Start is called before the first frame update
     void Start()
@@ -46,8 +48,9 @@ public class EnvironmentManager : MonoBehaviour
 
     IEnumerator slow(){
         reducedSpeed = 10;
+        IsSlowed = true;
         yield return new WaitForSeconds(6f);
-
         reducedSpeed = 0;
+        IsSlowed = false;
     }
 }
