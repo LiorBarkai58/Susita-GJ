@@ -2760,6 +2760,7 @@ GameObject:
   - component: {fileID: 1110067420311328248}
   - component: {fileID: 7784851014725293827}
   - component: {fileID: 8739775302083460847}
+  - component: {fileID: 4751162837196240621}
   m_Layer: 12
   m_Name: Sabra
   m_TagString: Untagged
@@ -2886,6 +2887,20 @@ MonoBehaviour:
   - {fileID: 7891801506130496936}
   - {fileID: 1277467086093165431}
   - {fileID: 4654607242451449409}
+--- !u!114 &4751162837196240621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2286138906422520890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 425de2d2739462a4ba406fb7139f088c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 0
+  scoreText: {fileID: 0}
 --- !u!1 &2493153522171220888
 GameObject:
   m_ObjectHideFlags: 0
@@ -3880,6 +3895,8 @@ MonoBehaviour:
   carManager: {fileID: 8739775302083460847}
   camel: {fileID: 0}
   gameoverScreen: {fileID: 0}
+  player: {fileID: 0}
+  bulletPrefab: {fileID: 0}
 --- !u!1 &3379367875061360023
 GameObject:
   m_ObjectHideFlags: 0
