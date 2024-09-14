@@ -70,7 +70,7 @@ public class Collecting : MonoBehaviour
         }
         if(collider.CompareTag("Flight")){
             Destroy(collider.gameObject);
-            StartCoroutine(player.Flight(10));
+            StartCoroutine(player.Flight(5));
         }
         if(collider.CompareTag("BoomBullet")){
             Destroy(collider.gameObject);
