@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Characters.Player;
 using UnityEngine;
 
 public class Collecting : MonoBehaviour
@@ -14,6 +15,8 @@ public class Collecting : MonoBehaviour
 
     [SerializeField] private PlayerController player;
 
+    [SerializeField] private PlayerScore score;
+
     [SerializeField] private GameObject bulletPrefab;
 
     private float _powerupDuration = 6f;
@@ -22,6 +25,11 @@ public class Collecting : MonoBehaviour
     //Will destroy and object with the tag "collectable"
     //Currency logic is yet to be implemented
     void OnTriggerEnter(Collider collider){
+        if(collider.gameObject.CompareTag("FiberGlass")){
+            score.AddToScore(1);
+            StartCoroutine(HandleFiberGlass(collider.gameObject));
+
+        }
         if(collider.gameObject.tag == "Collectable"){
             Debug.Log("Collected");
             Destroy(collider.gameObject, 0.1f);
@@ -86,6 +94,11 @@ public class Collecting : MonoBehaviour
         EnvironmentManager.InitiateSpeedBoost();
         yield return new WaitForSeconds(_powerupDuration);
         EnvironmentManager.CancelSpeedBoost();
+    }
+    IEnumerator HandleFiberGlass(GameObject FiberGlass){
+        FiberGlass.SetActive(false);
+        yield return new WaitForSeconds(1);
+        FiberGlass.SetActive(true);
     }
         
         
