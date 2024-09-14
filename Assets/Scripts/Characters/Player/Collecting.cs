@@ -74,7 +74,6 @@ public class Collecting : MonoBehaviour
         
     }
     void endLogic(){
-        Debug.Log("game over logic here");
         EnvironmentManager.PlayerCaught();
         gameoverScreen.Setup(10);
     }

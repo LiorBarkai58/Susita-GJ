@@ -23,12 +23,9 @@ public class GameManager : MonoBehaviour
 
     private void CheckWin()
     {
-        if (playerScore.score != winingScore) return;
+        if (playerScore.score < winingScore) return;
         
-        inGameUi.SetActive(false);
-        gameOverWinUi.SetActive(true);
-        pause.PauseGame();
-        PlayerPrefs.SetInt($"{SceneManager.GetActiveScene().buildIndex}", 1);
+        TriggerWin();
     }
 
     public void TriggerWin(){
