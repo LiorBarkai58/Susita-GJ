@@ -9,14 +9,17 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 38b0947ad6c88cb4fa4ec90d34adc827
   - enabled: 1
-    path: Assets/Scenes/QRreader.unity
-    guid: cae5f328da5b0d844b9b05d2653e8634
+    path: Assets/Scenes/Haifa Port.unity
+    guid: 2120d98c7347f0a44921eb9b70f1621a
   - enabled: 1
     path: Assets/Scenes/Jordan Level.unity
     guid: bd26028cc1e0baa49a62789de304a758
   - enabled: 1
     path: Assets/Scenes/Desert Level.unity
     guid: f70142ad7b481cc45b8f6b53a8b2dae3
+  - enabled: 1
+    path: Assets/Scenes/QRreader.unity
+    guid: cae5f328da5b0d844b9b05d2653e8634
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab

@@ -19,4 +19,9 @@ public class ButtonBehavior : HoverableUI
         SceneManager.LoadScene(currentScene.name);
         // Add your button click handling logic here
     }
+    public void LoadFirstScene(){
+        Time.timeScale = 1;
+
+        SceneManager.LoadScene(1);
+    }
 }
