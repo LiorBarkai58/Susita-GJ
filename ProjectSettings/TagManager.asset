@@ -15,6 +15,7 @@ TagManager:
   - Flight
   - Bullet
   - BoomBullet
+  - FiberGlass
   layers:
   - Default
   - TransparentFX
