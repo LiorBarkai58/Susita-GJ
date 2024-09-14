@@ -12577,10 +12577,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1539455519}
     m_Modifications:
-    - target: {fileID: 1529869885675265723, guid: 78a9a2b393953f2418aaddce0a6fda7a, type: 3}
-      propertyPath: 'm_Materials.Array.data[1]'
-      value: 
-      objectReference: {fileID: 2100000, guid: 554a66a1667f3c245ac38a3268471eca, type: 2}
     - target: {fileID: 1546550536166989571, guid: 78a9a2b393953f2418aaddce0a6fda7a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -31.9
@@ -12621,34 +12617,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1866794640304184168, guid: 78a9a2b393953f2418aaddce0a6fda7a, type: 3}
-      propertyPath: 'm_Materials.Array.data[1]'
-      value: 
-      objectReference: {fileID: 2100000, guid: 554a66a1667f3c245ac38a3268471eca, type: 2}
-    - target: {fileID: 2424623106062738302, guid: 78a9a2b393953f2418aaddce0a6fda7a, type: 3}
-      propertyPath: 'm_Materials.Array.data[1]'
-      value: 
-      objectReference: {fileID: 2100000, guid: 554a66a1667f3c245ac38a3268471eca, type: 2}
-    - target: {fileID: 2685356410277997561, guid: 78a9a2b393953f2418aaddce0a6fda7a, type: 3}
-      propertyPath: 'm_Materials.Array.data[1]'
-      value: 
-      objectReference: {fileID: 2100000, guid: 554a66a1667f3c245ac38a3268471eca, type: 2}
-    - target: {fileID: 2732977203150218087, guid: 78a9a2b393953f2418aaddce0a6fda7a, type: 3}
-      propertyPath: 'm_Materials.Array.data[1]'
-      value: 
-      objectReference: {fileID: 2100000, guid: 554a66a1667f3c245ac38a3268471eca, type: 2}
-    - target: {fileID: 4813991915309573315, guid: 78a9a2b393953f2418aaddce0a6fda7a, type: 3}
-      propertyPath: 'm_Materials.Array.data[1]'
-      value: 
-      objectReference: {fileID: 2100000, guid: 554a66a1667f3c245ac38a3268471eca, type: 2}
-    - target: {fileID: 6120595524220910087, guid: 78a9a2b393953f2418aaddce0a6fda7a, type: 3}
-      propertyPath: 'm_Materials.Array.data[1]'
-      value: 
-      objectReference: {fileID: 2100000, guid: 554a66a1667f3c245ac38a3268471eca, type: 2}
-    - target: {fileID: 7112803052162753176, guid: 78a9a2b393953f2418aaddce0a6fda7a, type: 3}
-      propertyPath: 'm_Materials.Array.data[1]'
-      value: 
-      objectReference: {fileID: 2100000, guid: 554a66a1667f3c245ac38a3268471eca, type: 2}
     - target: {fileID: 9017547643247534038, guid: 78a9a2b393953f2418aaddce0a6fda7a, type: 3}
       propertyPath: m_Name
       value: Art Chunk 1
