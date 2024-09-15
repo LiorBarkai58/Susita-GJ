@@ -11,9 +11,15 @@ namespace Characters.Player
 
         [SerializeField] private TextMeshProUGUI scoreText;
 
+        private int _maxScore = 0;
+
+        public void UpdateMax(int max){
+            _maxScore = max;
+        }
+
         void Update()
         {
-            scoreText.text = score.ToString();
+            scoreText.text = $"{score.ToString()}/{_maxScore}";
         }
 
         public void AddToScore(int score)
