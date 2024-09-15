@@ -7,7 +7,7 @@ public class EnvironmentManager : MonoBehaviour
     //This script manages the movement of the environment, slowing it down, stopping it or speeding up.
     private float speed = 25f;
 
-    private static bool gameOver = false;
+    public static bool gameOver = false;
 
     private float reducedSpeed = 0;
 
@@ -33,6 +33,9 @@ public class EnvironmentManager : MonoBehaviour
     }
 
     public static void PlayerCaught(){
+        gameOver = true;
+    }
+    public static void StopGame(){
         gameOver = true;
     }
     public void reduceSpeed(){

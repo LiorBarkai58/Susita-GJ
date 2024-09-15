@@ -36,13 +36,14 @@ public class GameManager : MonoBehaviour
     public void TriggerWin(){
         inGameUi.SetActive(false);
         gameOverWinUi.SetActive(true);
-        pause.PauseGame();
+        EnvironmentManager.gameOver = true;
         PlayerPrefs.SetInt($"{SceneManager.GetActiveScene().buildIndex}", 1);
     }
     public void TriggerLoss(){
         inGameUi.SetActive(false);
         gameOverLoseUi.SetActive(true);
-        pause.PauseGame();
+        EnvironmentManager.gameOver = true;
+
     }
     
 }

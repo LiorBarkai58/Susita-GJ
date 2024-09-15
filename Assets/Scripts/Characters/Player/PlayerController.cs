@@ -83,6 +83,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(EnvironmentManager.gameOver) return;
         if (jump.WasPressedThisFrame() && IsGrounded())
         {
             Jump();

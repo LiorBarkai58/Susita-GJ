@@ -59,7 +59,7 @@ public class BossController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(EnvironmentManager.gameOver) return;
         if(_countdown <= 0){
             if(player.transform.position.x < transform.position.x){
                 gameManager.TriggerWin();
