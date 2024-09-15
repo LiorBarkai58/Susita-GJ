@@ -19,7 +19,7 @@ namespace Characters.Player
 
         void Update()
         {
-            scoreText.text = $"{score.ToString()}/{_maxScore}";
+            scoreText.text = $"{score.ToString()}/ {_maxScore}";
         }
 
         public void AddToScore(int score)
