@@ -181,10 +181,10 @@ Material:
     - _CloudHeight: 0
     - _CloudsAlpha: 0
     - _CloudsCat: 1
-    - _CloudsHeight: 0.1
+    - _CloudsHeight: -0.02
     - _CloudsIntensity: 1
     - _CloudsLitbySun: 0
-    - _CloudsRotation: 0
+    - _CloudsRotation: 42
     - _CloudsRotationSpeed: 1
     - _Contrast: 0.477
     - _Contrsat: 1

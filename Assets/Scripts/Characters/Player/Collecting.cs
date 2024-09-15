@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using Characters.Player;
+using TMPro;
 using UnityEngine;
 
 public class Collecting : MonoBehaviour
@@ -14,7 +16,11 @@ public class Collecting : MonoBehaviour
 
     [SerializeField] private PlayerController player;
 
+    [SerializeField] private PlayerScore score;
+
     [SerializeField] private GameObject bulletPrefab;
+
+    [SerializeField] private TextMeshProUGUI text;
 
     private float _powerupDuration = 6f;
     private bool _isProtected = false;
@@ -22,6 +28,11 @@ public class Collecting : MonoBehaviour
     //Will destroy and object with the tag "collectable"
     //Currency logic is yet to be implemented
     void OnTriggerEnter(Collider collider){
+        if(collider.gameObject.CompareTag("FiberGlass")){
+            score.AddToScore(1);
+            StartCoroutine(HandleFiberGlass(collider.gameObject));
+
+        }
         if(collider.gameObject.tag == "Collectable"){
             Debug.Log("Collected");
             Destroy(collider.gameObject, 0.1f);
@@ -62,11 +73,12 @@ public class Collecting : MonoBehaviour
         }
         if(collider.CompareTag("Flight")){
             Destroy(collider.gameObject);
-            StartCoroutine(player.Flight(10));
+            StartCoroutine(player.Flight(5, text));
         }
         if(collider.CompareTag("BoomBullet")){
             Destroy(collider.gameObject);
-            Instantiate(bulletPrefab, transform.position + new Vector3(-5,1 ,0), Quaternion.identity);
+            Instantiate(bulletPrefab, transform.position + new Vector3(-5,0 ,0), Quaternion.identity);
+            StartCoroutine(BoomText());
         }
         
 
@@ -79,13 +91,27 @@ public class Collecting : MonoBehaviour
     }
     IEnumerator ShieldPower(){
         _isProtected = true;
+        text.SetText("Shielded");
         yield return new WaitForSeconds(_powerupDuration);
+        text.SetText("");
         _isProtected = false;
     }
     IEnumerator SpeedBoost(){
         EnvironmentManager.InitiateSpeedBoost();
+        text.SetText("Speed Boost");
         yield return new WaitForSeconds(_powerupDuration);
+        text.SetText("");
         EnvironmentManager.CancelSpeedBoost();
+    }
+    IEnumerator BoomText(){
+        text.SetText("Boom Bullet");
+        yield return new WaitForSeconds(_powerupDuration);
+        text.SetText("");
+    }
+    IEnumerator HandleFiberGlass(GameObject FiberGlass){
+        FiberGlass.SetActive(false);
+        yield return new WaitForSeconds(1);
+        FiberGlass.SetActive(true);
     }
         
         

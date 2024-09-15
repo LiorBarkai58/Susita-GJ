@@ -16,8 +16,9 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private int winingScore = 1000;
 
-    void Start(){
+    void OnEnable(){
         Time.timeScale = 1;
+        playerScore.UpdateMax(winingScore);
     }
 
     private void Update()
