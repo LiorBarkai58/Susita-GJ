@@ -6,6 +6,8 @@ public class TutorialLevel : MonoBehaviour {
 
     [SerializeField] GameObject text;
 
+    [SerializeField] GameObject FiberGlass;
+
 
 
     void Start(){
@@ -15,6 +17,10 @@ public class TutorialLevel : MonoBehaviour {
         yield return new WaitForSeconds(5);
         SlideTutorial.SetActive(false);
         text.SetActive(false);
+        FiberGlass.SetActive(true);
+        yield return new WaitForSeconds(5);
+        FiberGlass.SetActive(false);
+
     }
 
     
