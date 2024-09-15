@@ -9,8 +9,15 @@ public class CameraFeed : MonoBehaviour
     [HideInInspector] public WebCamTexture webCamTexture;
     void Start()
     {
-
-        webCamTexture = new WebCamTexture();
+        foreach(var camera in WebCamTexture.devices){
+            if(!camera.isFrontFacing){
+                webCamTexture = new WebCamTexture(camera.name);
+                break;
+            }
+        }
+        if(webCamTexture == null){
+            webCamTexture = new WebCamTexture();
+        }
         rawImage.texture = webCamTexture;
         rawImage.material.mainTexture = webCamTexture;
         webCamTexture.Play();
