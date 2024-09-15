@@ -18,6 +18,7 @@ public class GameManager : MonoBehaviour
 
     void OnEnable(){
         Time.timeScale = 1;
+        playerScore.UpdateMax(winingScore);
     }
 
     private void Update()
