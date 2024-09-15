@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Animations;
 using UnityEngine.InputSystem;
@@ -155,10 +156,12 @@ public class PlayerController : MonoBehaviour
         float targetZ = Mathf.Lerp(transform.position.z, currentPos*4, Time.deltaTime*moveSpeed);
         transform.position = new Vector3(transform.position.x, transform.position.y, targetZ);
     }
-    public IEnumerator Flight(float duration){
+    public IEnumerator Flight(float duration, TextMeshProUGUI text){
         rb.isKinematic = true;
         targetY = 6.5f;
+        text.SetText("Flight");
         yield return new WaitForSeconds(duration);
+        text.SetText("");
         rb.isKinematic = false;
         targetY = 0;
 

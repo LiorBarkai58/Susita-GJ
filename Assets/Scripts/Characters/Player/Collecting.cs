@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using Characters.Player;
+using TMPro;
 using UnityEngine;
 
 public class Collecting : MonoBehaviour
@@ -18,6 +19,8 @@ public class Collecting : MonoBehaviour
     [SerializeField] private PlayerScore score;
 
     [SerializeField] private GameObject bulletPrefab;
+
+    [SerializeField] private TextMeshProUGUI text;
 
     private float _powerupDuration = 6f;
     private bool _isProtected = false;
@@ -70,11 +73,12 @@ public class Collecting : MonoBehaviour
         }
         if(collider.CompareTag("Flight")){
             Destroy(collider.gameObject);
-            StartCoroutine(player.Flight(10));
+            StartCoroutine(player.Flight(5, text));
         }
         if(collider.CompareTag("BoomBullet")){
             Destroy(collider.gameObject);
-            Instantiate(bulletPrefab, transform.position + new Vector3(-5,1 ,0), Quaternion.identity);
+            Instantiate(bulletPrefab, transform.position + new Vector3(-5,0 ,0), Quaternion.identity);
+            StartCoroutine(BoomText());
         }
         
 
@@ -87,13 +91,22 @@ public class Collecting : MonoBehaviour
     }
     IEnumerator ShieldPower(){
         _isProtected = true;
+        text.SetText("Shielded");
         yield return new WaitForSeconds(_powerupDuration);
+        text.SetText("");
         _isProtected = false;
     }
     IEnumerator SpeedBoost(){
         EnvironmentManager.InitiateSpeedBoost();
+        text.SetText("Speed");
         yield return new WaitForSeconds(_powerupDuration);
+        text.SetText("");
         EnvironmentManager.CancelSpeedBoost();
+    }
+    IEnumerator BoomText(){
+        text.SetText("Boom");
+        yield return new WaitForSeconds(_powerupDuration);
+        text.SetText("");
     }
     IEnumerator HandleFiberGlass(GameObject FiberGlass){
         FiberGlass.SetActive(false);
