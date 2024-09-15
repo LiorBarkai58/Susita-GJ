@@ -98,13 +98,13 @@ public class Collecting : MonoBehaviour
     }
     IEnumerator SpeedBoost(){
         EnvironmentManager.InitiateSpeedBoost();
-        text.SetText("Speed");
+        text.SetText("Speed Boost");
         yield return new WaitForSeconds(_powerupDuration);
         text.SetText("");
         EnvironmentManager.CancelSpeedBoost();
     }
     IEnumerator BoomText(){
-        text.SetText("Boom");
+        text.SetText("Boom Bullet");
         yield return new WaitForSeconds(_powerupDuration);
         text.SetText("");
     }
