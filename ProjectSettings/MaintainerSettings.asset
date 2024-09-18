@@ -81,6 +81,11 @@ MonoBehaviour:
       kind: 3
       value: .preset
       exactMatch: 0
+    - enabled: 1
+      ignoreCase: 1
+      kind: 0
+      value: Assets/Level Design/Low Poly Water
+      exactMatch: 0
     pathIncludesFilters: []
     sceneIgnoresFilters: []
     ignoreScenesInBuild: 1
@@ -96,4 +101,4 @@ MonoBehaviour:
   referencesFinderSettings:
     pathIgnoresFilters: []
     pathIncludesFilters: []
-  version: 1.16.2
+  version: 1.16.3
