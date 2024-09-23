@@ -22,6 +22,8 @@ public class Collecting : MonoBehaviour
 
     [SerializeField] private TextMeshProUGUI text;
 
+    [SerializeField] private AudioManager audioManager;
+
     private float _powerupDuration = 6f;
     private bool _isProtected = false;
     
@@ -31,11 +33,12 @@ public class Collecting : MonoBehaviour
         if(collider.gameObject.CompareTag("FiberGlass")){
             score.AddToScore(1);
             StartCoroutine(HandleFiberGlass(collider.gameObject));
-
+            audioManager.PlaySfx(audioManager.fiberglassCollected);
         }
         if(collider.gameObject.tag == "Collectable"){
             Debug.Log("Collected");
             Destroy(collider.gameObject, 0.1f);
+            audioManager.PlaySfx(audioManager.powerUpCollected);
         }
         if(collider.gameObject.tag == "Obstacle-S"){
             if(_isProtected){
@@ -44,6 +47,7 @@ public class Collecting : MonoBehaviour
                 return;
             }
             camel.getCloser();
+            audioManager.PlaySfx(audioManager.bite);
             carManager.OnPartDestroy();
             EnvironmentManager.reduceSpeed();
             if(camel.isOnPlayer()){
@@ -87,6 +91,7 @@ public class Collecting : MonoBehaviour
     }
     void endLogic(){
         EnvironmentManager.PlayerCaught();
+        audioManager.PlaySfx(audioManager.die);
         gameoverScreen.Setup(10);
     }
     IEnumerator ShieldPower(){
