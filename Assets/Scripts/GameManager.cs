@@ -14,6 +14,8 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private Pause pause;
 
+    [SerializeField] private AudioManager audioManager;
+
     [SerializeField] private int winingScore = 1000;
 
     void OnEnable(){
@@ -34,6 +36,7 @@ public class GameManager : MonoBehaviour
     }
 
     public void TriggerWin(){
+        audioManager.DisableSfx();
         inGameUi.SetActive(false);
         gameOverWinUi.SetActive(true);
         EnvironmentManager.gameOver = true;

@@ -178,10 +178,14 @@ MonoBehaviour:
   musicSource: {fileID: 4599911430706988141}
   sfxSource: {fileID: 713195188430424434}
   backgroundMusic: {fileID: 8300000, guid: 7bfca8c4294bf744bae3aab4a75ae74b, type: 3}
-  sfx1: {fileID: 0}
-  sfx2: {fileID: 0}
-  sfx3: {fileID: 0}
-  sfx4: {fileID: 0}
+  buttonClicked: {fileID: 8300000, guid: 7b8ca9dbec0d3f241985dee458edd80d, type: 3}
+  powerUpCollected: {fileID: 8300000, guid: 2ce82e6ab73d6854fad4af8a117f2965, type: 3}
+  fiberglassCollected: {fileID: 8300000, guid: ad8d0e5cfae7b6849b783f4169b54f08, type: 3}
+  bite: {fileID: 8300000, guid: 40ed3f984d8a5b94098679ddf905c1f0, type: 3}
+  collide: {fileID: 0}
+  die: {fileID: 8300000, guid: 2a3ef0967427b5e46ac990cf65f93245, type: 3}
+  landing: {fileID: 8300000, guid: 7d98dbcd99849e647914ac2bb74e92ab, type: 3}
+  flying: {fileID: 0}
 --- !u!1 &7953425820955785151
 GameObject:
   m_ObjectHideFlags: 0

@@ -3896,7 +3896,10 @@ MonoBehaviour:
   camel: {fileID: 0}
   gameoverScreen: {fileID: 0}
   player: {fileID: 0}
+  score: {fileID: 0}
   bulletPrefab: {fileID: 0}
+  text: {fileID: 0}
+  audioManager: {fileID: 7336649030039123992, guid: fbce9909aea9e6d4997cfdf76d883e23, type: 3}
 --- !u!1 &3379367875061360023
 GameObject:
   m_ObjectHideFlags: 0

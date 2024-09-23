@@ -7,11 +7,14 @@ public class AudioManager : MonoBehaviour
     [SerializeField] private AudioSource sfxSource;
 
     [Header("Audio Clips")]
-    [SerializeField] private AudioClip backgroundMusic;
-    [SerializeField] private AudioClip sfx1;
-    [SerializeField] private AudioClip sfx2;
-    [SerializeField] private AudioClip sfx3;
-    [SerializeField] private AudioClip sfx4;
+    [SerializeField] private AudioClip backgroundMusic;    public AudioClip buttonClicked;
+    public AudioClip powerUpCollected;
+    public AudioClip fiberglassCollected;
+    public AudioClip bite;
+    public AudioClip collide;
+    public AudioClip die;
+    public AudioClip landing;
+    public AudioClip flying;
 
     private void Start()
     {
@@ -21,6 +24,12 @@ public class AudioManager : MonoBehaviour
 
     public void PlaySfx(AudioClip clip)
     {
-        sfxSource.PlayOneShot(clip);
+        if(sfxSource.isActiveAndEnabled)
+            sfxSource.PlayOneShot(clip);
+    }
+
+    public void DisableSfx()
+    {
+        sfxSource.gameObject.SetActive(false);
     }
 }

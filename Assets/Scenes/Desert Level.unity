@@ -7575,6 +7575,7 @@ MonoBehaviour:
   gameOverWinUi: {fileID: 801856276}
   gameOverLoseUi: {fileID: 2059832759}
   pause: {fileID: 1416282972}
+  audioManager: {fileID: 7336649030039123992, guid: fbce9909aea9e6d4997cfdf76d883e23, type: 3}
   winingScore: 1000
 --- !u!4 &1448000523
 Transform:
@@ -8274,7 +8275,7 @@ PrefabInstance:
     - target: {fileID: 7336649030039123992, guid: fbce9909aea9e6d4997cfdf76d883e23, type: 3}
       propertyPath: backgroundMusic
       value: 
-      objectReference: {fileID: 8300000, guid: 410134850e430fe409df58977935e832, type: 3}
+      objectReference: {fileID: 8300000, guid: f5464935b3921af4eb2ddd8afe48cbda, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
