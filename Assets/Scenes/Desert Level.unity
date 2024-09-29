@@ -5554,6 +5554,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6463473743054047305, guid: a68a6da7c16782344a4c56199c939b77, type: 3}
   m_PrefabInstance: {fileID: 1170369537}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1181551782 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7336649030039123992, guid: fbce9909aea9e6d4997cfdf76d883e23, type: 3}
+  m_PrefabInstance: {fileID: 1568634705}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5bb2f8f1e79d4a4b9a07fe4e4997de1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1191614504
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7575,7 +7586,7 @@ MonoBehaviour:
   gameOverWinUi: {fileID: 801856276}
   gameOverLoseUi: {fileID: 2059832759}
   pause: {fileID: 1416282972}
-  audioManager: {fileID: 7336649030039123992, guid: fbce9909aea9e6d4997cfdf76d883e23, type: 3}
+  audioManager: {fileID: 1181551782}
   winingScore: 1000
 --- !u!4 &1448000523
 Transform:
@@ -8276,6 +8287,10 @@ PrefabInstance:
       propertyPath: backgroundMusic
       value: 
       objectReference: {fileID: 8300000, guid: f5464935b3921af4eb2ddd8afe48cbda, type: 3}
+    - target: {fileID: 7953425820955785151, guid: fbce9909aea9e6d4997cfdf76d883e23, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12227,6 +12242,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 2120275094}
+    - target: {fileID: 2351915559320610117, guid: b9389e4a913dae34c8532353cd68b7cc, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1181551782}
     - target: {fileID: 2351915559320610117, guid: b9389e4a913dae34c8532353cd68b7cc, type: 3}
       propertyPath: bulletPrefab
       value: 
