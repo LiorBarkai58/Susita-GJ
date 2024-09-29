@@ -21,15 +21,40 @@ public class AudioManager : MonoBehaviour
         musicSource.clip = backgroundMusic;
         musicSource.Play();
     }
+    void Update(){
+        if(!Application.isFocused){
+            musicSource.Stop();
+        }
+    }
 
     public void PlaySfx(AudioClip clip)
     {
-        if(sfxSource.isActiveAndEnabled)
+
+        if(sfxSource.isActiveAndEnabled){
             sfxSource.PlayOneShot(clip);
+        }
     }
 
     public void DisableSfx()
     {
         sfxSource.gameObject.SetActive(false);
+    }
+
+    void OnApplicationFocus(bool focus){
+        if(!focus){
+            musicSource.Stop();
+        }
+        else{
+            musicSource.Play();
+        }
+    }
+    void OnApplicationPause(bool paused){
+        if(paused){
+            musicSource.Stop();
+        }
+        else{
+            musicSource.Play();
+        }
+
     }
 }

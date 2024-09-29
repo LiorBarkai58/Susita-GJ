@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -37,5 +38,24 @@ public class CameraFeed : MonoBehaviour
             }
         }
     }
+
+    
+
+    void OnApplicationFocus(bool hasFocus){
+        if(enabled){
+            if(hasFocus){
+                webCamTexture.Play();
+            }
+            else{
+                webCamTexture.Stop();
+            }
+        } 
+    }
+
+    void OnDisable(){
+        webCamTexture.Stop();
+    }
+
+    
 
 }

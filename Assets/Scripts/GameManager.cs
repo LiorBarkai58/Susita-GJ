@@ -22,10 +22,14 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1;
         playerScore.UpdateMax(winingScore);
     }
+    void Start(){
+        Application.runInBackground = false;
+    }
 
     private void Update()
     {
         CheckWin();
+        
     }
 
     private void CheckWin()
