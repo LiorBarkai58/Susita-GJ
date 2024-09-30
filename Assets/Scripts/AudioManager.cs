@@ -11,10 +11,7 @@ public class AudioManager : MonoBehaviour
     public AudioClip powerUpCollected;
     public AudioClip fiberglassCollected;
     public AudioClip bite;
-    public AudioClip collide;
     public AudioClip die;
-    public AudioClip landing;
-    public AudioClip flying;
 
     private void Start()
     {

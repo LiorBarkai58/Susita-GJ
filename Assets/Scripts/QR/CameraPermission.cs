@@ -1,13 +1,16 @@
 using UnityEngine;
 using UnityEngine.Android;
 
-public class CameraPermission : MonoBehaviour
+namespace QR
 {
-    void Start()
+    public class CameraPermission : MonoBehaviour
     {
-        if (!Permission.HasUserAuthorizedPermission(Permission.Camera))
+        void Start()
         {
-            Permission.RequestUserPermission(Permission.Camera);
+            if (!Permission.HasUserAuthorizedPermission(Permission.Camera))
+            {
+                Permission.RequestUserPermission(Permission.Camera);
+            }
         }
     }
 }

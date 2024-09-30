@@ -1,27 +1,28 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 
 //This script will hold all the basic functions for the ui buttons that every scene will have
 //Things like, Pause screen, back to menu, maybe some powerups.
-public class ButtonBehavior : HoverableUI
+namespace Ui
 {
-    //Reloads current scene
-    public void RetryCurrentLevel()
+    public class ButtonBehavior : HoverableUI
     {
-        Debug.Log("Button clicked!");
-        Scene currentScene = SceneManager.GetActiveScene();
+        //Reloads current scene
+        public void RetryCurrentLevel()
+        {
+            Debug.Log("Button clicked!");
+            Scene currentScene = SceneManager.GetActiveScene();
         
-        Time.timeScale = 1;
-        // Reload the current scene using its name
-        SceneManager.LoadScene(currentScene.name);
-        // Add your button click handling logic here
-    }
-    public void LoadFirstScene(){
-        Time.timeScale = 1;
+            Time.timeScale = 1;
+            // Reload the current scene using its name
+            SceneManager.LoadScene(currentScene.name);
+            // Add your button click handling logic here
+        }
+        public void LoadFirstScene(){
+            Time.timeScale = 1;
 
-        SceneManager.LoadScene(1);
+            SceneManager.LoadScene(1);
+        }
     }
 }

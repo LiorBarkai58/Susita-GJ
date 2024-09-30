@@ -1,29 +1,14 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class FloorDestroyer : MonoBehaviour
+namespace Environment
 {
-    //Floor destroyer commander of the nine hells.
-    //This script is attached to the FloorDestroyer prefab, detects floors and disables them
-    // Start is called before the first frame update
-    void Start()
+    public class FloorDestroyer : MonoBehaviour
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-    private void OnTriggerEnter(Collider collider)
-    {
-        if (collider.gameObject.tag == "Floor")
+        private void OnTriggerEnter(Collider collider)
         {
-
+            if (!collider.gameObject.CompareTag("Floor")) return;
+            
             collider.transform.parent.gameObject.SetActive(false);
-
         }
     }
 }

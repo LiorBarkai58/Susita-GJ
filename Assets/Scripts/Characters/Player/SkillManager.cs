@@ -1,5 +1,5 @@
 using System.Collections;
-using System.Collections.Generic;
+using Environment;
 using UnityEngine;
 
 public class SkillManager : MonoBehaviour{
@@ -20,10 +20,7 @@ public class SkillManager : MonoBehaviour{
                 StartCoroutine(SpeedBoost());
                 break;
             default:
-                Debug.Log("no Skill found");
                 break;
-
-
         }
     }
     IEnumerator ShieldPower(){

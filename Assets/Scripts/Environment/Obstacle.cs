@@ -1,21 +1,15 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
-public class Obstacle : MonoBehaviour
+namespace Environment
 {
-
-    void OnTriggerEnter(Collider Collider){
-        if(Collider.gameObject.CompareTag("Bullet")){
+    public class Obstacle : MonoBehaviour
+    {
+        void OnTriggerEnter(Collider Collider)
+        {
+            if (!Collider.gameObject.CompareTag("Bullet")) return;
+            
             Destroy(Collider.gameObject);
             Destroy(gameObject);
         }
-
     }
-
-    
-    
-    
-    
 }

@@ -1,20 +1,20 @@
-
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
-public class HoverableUI : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
+
+namespace Ui
 {
-    public static bool UIHovered = false;
-
-    
-    public void OnPointerEnter(PointerEventData eventData)
+    public class HoverableUI : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     {
-        UIHovered = true;
-    }
+        public static bool UIHovered = false;
+        
+        public void OnPointerEnter(PointerEventData eventData)
+        {
+            UIHovered = true;
+        }
 
-    public void OnPointerExit(PointerEventData eventData)
-    {
-        UIHovered = false;
+        public void OnPointerExit(PointerEventData eventData)
+        {
+            UIHovered = false;
+        }
     }
 }

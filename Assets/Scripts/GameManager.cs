@@ -1,5 +1,5 @@
-using System;
 using Characters.Player;
+using Environment;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -46,7 +46,6 @@ public class GameManager : MonoBehaviour
         inGameUi.SetActive(false);
         gameOverLoseUi.SetActive(true);
         EnvironmentManager.gameOver = true;
-
     }
     
 }

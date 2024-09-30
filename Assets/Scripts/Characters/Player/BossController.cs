@@ -1,15 +1,13 @@
 using System;
 using System.Collections;
+using Characters.Player;
+using Environment;
 using TMPro;
 using UnityEngine;
-using UnityEngine.Animations;
-using UnityEngine.InputSystem;
-using UnityEngine.InputSystem.Composites;
-
+using Utility;
 
 public class BossController : MonoBehaviour
 {
-    private Rigidbody rb;
     [SerializeField] float currentPos = 0;
     [SerializeField] private Cooldown movementCD;
     
@@ -38,12 +36,7 @@ public class BossController : MonoBehaviour
 
 
     void Awake(){
-        
-        rb = GetComponent<Rigidbody>();
         _targetPosition = transform.position;
-
-        
-
     }
     void OnEnable(){
         StartCoroutine(MoveBoss());

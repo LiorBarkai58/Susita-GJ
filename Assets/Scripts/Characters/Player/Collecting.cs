@@ -1,12 +1,11 @@
 using System.Collections;
-using System.Collections.Generic;
 using Characters.Player;
+using Environment;
 using TMPro;
 using UnityEngine;
 
 public class Collecting : MonoBehaviour
 {
-    enum Powerups {Shielded, Speeded}
     [SerializeField] EnvironmentManager EnvironmentManager;//Insert the environment manager to this
 
     [SerializeField] CarManager carManager;
@@ -35,12 +34,12 @@ public class Collecting : MonoBehaviour
             StartCoroutine(HandleFiberGlass(collider.gameObject));
             audioManager.PlaySfx(audioManager.fiberglassCollected);
         }
-        if(collider.gameObject.tag == "Collectable"){
+        if(collider.gameObject.CompareTag("Collectable")){
             Debug.Log("Collected");
             Destroy(collider.gameObject, 0.1f);
             audioManager.PlaySfx(audioManager.powerUpCollected);
         }
-        if(collider.gameObject.tag == "Obstacle-S"){
+        if(collider.gameObject.CompareTag("Obstacle-S")){
             if(_isProtected){
                 StopCoroutine(ShieldPower());
                 _isProtected = false; 
@@ -56,7 +55,7 @@ public class Collecting : MonoBehaviour
             }
             
         }
-        if(collider.gameObject.tag == "Obstacle-B"){
+        if(collider.gameObject.CompareTag("Obstacle-B")){
             if(_isProtected){ 
                 StopCoroutine(ShieldPower());
                 _isProtected = false;

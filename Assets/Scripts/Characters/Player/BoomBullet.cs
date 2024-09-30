@@ -1,10 +1,13 @@
 using UnityEngine;
 
-public class BoomBullet : MonoBehaviour
+namespace Characters.Player
 {
+    public class BoomBullet : MonoBehaviour
+    {
 
-    void Update(){
-        transform.position += new Vector3(-Time.deltaTime*12, 0, 0);
-    }
+        void Update(){
+            transform.position += new Vector3(-Time.deltaTime*12, 0, 0);
+        }
     
+    }
 }
